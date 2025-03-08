@@ -48,15 +48,15 @@ to run and execute dicom conversion following commands need to be run on shell
     > -e DISPLAY=$DISPLAY \
     > -v /tmp/.X11-unix:/tmp.X11-unix \
     > -v $(pwd)/I1270009:/input \
-    > -v $(pwd)/output:/output \
+    > -v $(pwd)/output_v2:/output_v2 \
     > -e OUTPUT_NAME="converted_output" \
     > fmri-dicom-converter
     ```
 4. after running the container shell will be available with root privileges. use dcm2nixx for conversion.
     ```shell
-    dcm2niix -o /output -f "${OUTPUT_NAME}" /input
+    dcm2niix -o /output_v2 -f "${OUTPUT_NAME}" /input
     ```
 5. you can use fsleyes to view the output file created
     ```shell
-    fsleyes output/converted_output.nii
+    fsleyes output_v2/converted_output.nii
     ```

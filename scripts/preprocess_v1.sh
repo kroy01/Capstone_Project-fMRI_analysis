@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Create output subdirectories for each preprocessing step
+# Create output_v2 subdirectories for each preprocessing step
 mkdir -p /output/01_dicom_conversion
 mkdir -p /output/02_slice_timing
 mkdir -p /output/03_mean_image
