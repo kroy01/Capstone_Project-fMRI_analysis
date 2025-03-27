@@ -5,6 +5,7 @@
 torch==2.3.1+cpu
 torchvision==0.18.1+cpu
 torchaudio==2.3.1+cpu
+torch-geometric==2.6.1
 
 # PyTorch Geometric dependencies (corrected suffixes to +pt23cpu)
 torch-scatter==2.1.2+pt23cpu
