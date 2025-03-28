@@ -22,3 +22,6 @@ tqdm>=4.66.0
 # Visualization packages
 plotly==6.0.1
 dash==3.0.1
+
+# other utilities
+pandas==2.2.3

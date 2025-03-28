@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import numpy as np
+import pandas as pd
 import torch
 from torch_geometric.data import Data
 
@@ -11,51 +12,52 @@ import plotly.graph_objs as go
 
 app = dash.Dash(__name__)
 
-# Global variables (populated after loading data)
-NODE_COORDS = None       # shape (N, 3), float or int voxel coords
-NODE_INTENSITY = None    # shape (N,) - for coloring the 3D scatter
-BOLD_ARRAY = None        # shape (N, T) time series for each voxel
-VOXEL_DICT = {}          # maps (x, y, z) -> index in [0..N-1]
-SAMPLE_RATE = 1.0
+# Global data references
+NODE_COORDS = None  # shape (N, 3) for (x, y, z)
+NODE_INTENSITY = None  # shape (N,) for coloring the scatter
+BOLD_ARRAY = None  # shape (N, T) for each voxel's BOLD
+COORD_TO_INDEX = None  # dict {(x, y, z): node_index}
+DEFAULT_SAMPLE_RATE = 0.1  # 10% downsampling by default for faster initial load
+
 
 def create_3d_scatter_figure(coords, intensity, sample_rate=1.0):
     """
-    Create a 3D scatter plot of voxel locations.
+    Build a 3D scatter plot of voxel locations.
 
     Args:
-        coords (ndarray): shape (N, 3) voxel coordinates [x, y, z].
-        intensity (ndarray): shape (N,) for color (e.g., average BOLD).
-        sample_rate (float): fraction of voxels to plot (downsampling for speed).
+        coords (ndarray): shape (N, 3) => voxel [x, y, z].
+        intensity (ndarray): shape (N,) => color (e.g., average BOLD).
+        sample_rate (float): fraction of voxels to plot, to reduce load time.
 
     Returns:
-        go.Figure: 3D scatter plot with each voxel as a point.
+        plotly.graph_objs.Figure
     """
     num_voxels = coords.shape[0]
     if sample_rate < 1.0:
         sample_size = int(num_voxels * sample_rate)
         idx = np.random.choice(num_voxels, sample_size, replace=False)
-        coords_sampled = coords[idx]
-        intensity_sampled = intensity[idx]
-        indices_for_hover = idx
+        coords_plot = coords[idx]
+        intensity_plot = intensity[idx]
+        indices_plot = idx
     else:
-        coords_sampled = coords
-        intensity_sampled = intensity
-        indices_for_hover = np.arange(num_voxels)
+        coords_plot = coords
+        intensity_plot = intensity
+        indices_plot = np.arange(num_voxels)
 
-    # We store the voxel index in 'text' so we can retrieve it in the callback
+    # Store the original voxel index as 'text' (string) for click retrieval
     scatter = go.Scatter3d(
-        x=coords_sampled[:, 0],
-        y=coords_sampled[:, 1],
-        z=coords_sampled[:, 2],
+        x=coords_plot[:, 0],
+        y=coords_plot[:, 1],
+        z=coords_plot[:, 2],
         mode='markers',
         marker=dict(
             size=3,
-            color=intensity_sampled,
+            color=intensity_plot,
             colorscale='Viridis',
             opacity=0.8,
             colorbar=dict(title='Intensity')
         ),
-        text=[str(i) for i in indices_for_hover],  # store original index as text
+        text=[str(i) for i in indices_plot],
     )
 
     fig = go.Figure(data=[scatter])
@@ -66,222 +68,241 @@ def create_3d_scatter_figure(coords, intensity, sample_rate=1.0):
             zaxis_title='Z'
         ),
         title="BOLD fMRI Graph (Voxel-level 3D)",
-        clickmode='event+select'  # enable click events
+        clickmode='event+select'
     )
     return fig
 
 
-def create_time_series_figure(time_series, voxel_label="Voxel"):
+def create_time_series_figure(time_series, voxel_index, coordinate):
     """
-    Create a 2D plot of the BOLD time series for a single voxel.
+    Create a 2D line plot of a single voxel's BOLD time series.
 
     Args:
-        time_series (ndarray): shape (T,) BOLD values across time.
-        voxel_label (str): name/label for the voxel in the title.
+        time_series (ndarray): BOLD values across time.
+        voxel_index (int): The voxel index.
+        coordinate (ndarray or tuple): The (x, y, z) coordinate of the voxel.
 
     Returns:
-        go.Figure: 2D line plot of BOLD vs. time index.
+        plotly.graph_objs.Figure: 2D line plot.
     """
+    coord_str = f"({int(coordinate[0])}, {int(coordinate[1])}, {int(coordinate[2])})"
     fig = go.Figure()
     fig.add_trace(go.Scatter(
         x=np.arange(len(time_series)),
         y=time_series,
         mode='lines',
-        name=f'{voxel_label} BOLD'
+        name=f"Voxel {voxel_index} BOLD"
     ))
     fig.update_layout(
-        title=f"BOLD Time Series - {voxel_label}",
+        title=f"BOLD Time Series - Voxel {voxel_index} {coord_str}",
         xaxis_title="Time (volume index)",
         yaxis_title="BOLD Intensity"
     )
     return fig
 
 
-# Layout with:
-# 1) A 3D scatter (fMRI brain)
-# 2) The time-series plot
-# 3) Input fields (x, y, z) + button to query
-# 4) A sample rate input
 app.layout = html.Div([
     html.H1("BOLD fMRI Graph Visualization (Dash)"),
 
+    # 3D Scatter
     dcc.Graph(id='brain-3d-scatter'),
+
+    # Time Series Plot
     dcc.Graph(id='time-series-plot'),
 
-    html.Br(),
-
+    # Controls for sample rate
     html.Div([
         html.Label("Voxel Sample Rate (0.01 to 1.0):"),
         dcc.Input(
             id='sample-rate-input',
             type='number',
-            value=1.0,
+            value=DEFAULT_SAMPLE_RATE,
             min=0.01,
             max=1.0,
             step=0.01
         ),
-        html.Button("Update 3D Plot", id="update-plot-button"),
-    ]),
+        html.Button("Update Plot", id="update-button"),
+    ], style={'margin-bottom': '20px'}),
+
+    # Hidden store for selected voxel
+    dcc.Store(id='selected-voxel-store'),
+    html.Button("Download CSV", id="download-button"),
+    dcc.Download(id="download-dataframe-csv"),
 
     html.Hr(),
-    html.Label("Or enter voxel coordinates (x, y, z):"),
 
+    html.H3("Manually Pick a (x,y,z) Coordinate:"),
     html.Div([
-        dcc.Input(id='voxel-x-input', type='number', placeholder="X coord"),
-        dcc.Input(id='voxel-y-input', type='number', placeholder="Y coord"),
-        dcc.Input(id='voxel-z-input', type='number', placeholder="Z coord"),
-        html.Button("Show Time Series", id="voxel-query-button"),
-    ], style={'marginTop': '10px'}),
+        "x: ", dcc.Input(id="x-input", type="number", value=0),
+        " y: ", dcc.Input(id="y-input", type="number", value=0),
+        " z: ", dcc.Input(id="z-input", type="number", value=0),
+    ], style={'margin-bottom': '10px'}),
+    html.Button("Find Voxel", id="find-voxel-button"),
+])
 
-], style={'width': '80%', 'margin': 'auto'})
 
+# ----------------------------------------------------------------------------
+# Callbacks
+# ----------------------------------------------------------------------------
 
 @app.callback(
     Output('brain-3d-scatter', 'figure'),
-    Input('update-plot-button', 'n_clicks'),
-    Input('sample-rate-input', 'value')
+    Input('update-button', 'n_clicks'),
+    State('sample-rate-input', 'value')
 )
 def update_3d_figure(_, new_sample_rate):
     """
-    Recreate the 3D scatter with a new sample rate if user adjusts it.
+    Recreate the 3D scatter with the specified sample rate.
     """
     global NODE_COORDS, NODE_INTENSITY
     if NODE_COORDS is None or NODE_INTENSITY is None:
         return go.Figure()
 
     sample_rate = float(new_sample_rate) if new_sample_rate else 1.0
-    fig = create_3d_scatter_figure(NODE_COORDS, NODE_INTENSITY, sample_rate=sample_rate)
-    return fig
+    return create_3d_scatter_figure(NODE_COORDS, NODE_INTENSITY, sample_rate=sample_rate)
+
+
+@app.callback(
+    Output('selected-voxel-store', 'data'),
+    [
+        Input('brain-3d-scatter', 'clickData'),
+        Input('find-voxel-button', 'n_clicks')
+    ],
+    [
+        State('x-input', 'value'),
+        State('y-input', 'value'),
+        State('z-input', 'value')
+    ]
+)
+def store_voxel_index(clickData, find_n_clicks, x_val, y_val, z_val):
+    """
+    Set the selected voxel from either a 3D click or coordinate input.
+    """
+    from dash import callback_context as ctx
+
+    if not ctx.triggered:
+        return None
+
+    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
+
+    if triggered_id == 'brain-3d-scatter':
+        if not clickData or not clickData['points']:
+            return None
+        voxel_index_str = clickData['points'][0].get('text')
+        if voxel_index_str is None:
+            return None
+        return int(voxel_index_str)
+
+    elif triggered_id == 'find-voxel-button':
+        coord_key = (int(x_val), int(y_val), int(z_val))
+        voxel_idx = COORD_TO_INDEX.get(coord_key, None)
+        return voxel_idx
+
+    return None
 
 
 @app.callback(
     Output('time-series-plot', 'figure'),
-    # We have two possible triggers:
-    # 1) A click on the 3D scatter
-    # 2) The "Show Time Series" button
-    #
-    # We'll handle both in a single callback by examining which one triggered.
-    [
-        Input('brain-3d-scatter', 'clickData'),
-        Input('voxel-query-button', 'n_clicks'),
-    ],
-    [
-        State('voxel-x-input', 'value'),
-        State('voxel-y-input', 'value'),
-        State('voxel-z-input', 'value'),
-    ],
-    prevent_initial_call=True
+    Input('selected-voxel-store', 'data')
 )
-def display_click_or_coord(clickData, _, vx, vy, vz):
+def update_time_series_plot(voxel_index):
     """
-    If user clicks on a voxel, show that voxel's time series.
-    If user enters coordinates and clicks "Show Time Series", show that voxel's time series.
+    Update the time series plot when the selected voxel changes.
     """
-    global BOLD_ARRAY, VOXEL_DICT
-
-    # Default figure if no valid input
+    global BOLD_ARRAY, NODE_COORDS
     empty_fig = go.Figure().update_layout(
-        title="Click a voxel or enter coords to see its BOLD time series",
+        title="Click a voxel or pick a coordinate to see BOLD time series",
         xaxis_title="Time",
         yaxis_title="BOLD"
     )
-
-    # Check which input fired using dash.callback_context
-    ctx = dash.callback_context
-    if not ctx.triggered:
+    if voxel_index is None or BOLD_ARRAY is None:
+        return empty_fig
+    if voxel_index < 0 or voxel_index >= BOLD_ARRAY.shape[0]:
         return empty_fig
 
-    trigger_id = ctx.triggered[0]['prop_id'].split('.')[0]
+    time_series = BOLD_ARRAY[voxel_index]
+    coordinate = NODE_COORDS[voxel_index]
+    return create_time_series_figure(time_series, voxel_index, coordinate)
 
-    # 1) If triggered by clicking on 3D scatter
-    if trigger_id == 'brain-3d-scatter' and clickData is not None:
-        # get the integer voxel index from the 'text' property
-        point_data = clickData['points'][0]
-        voxel_index = int(point_data['text'])
 
-        if voxel_index < 0 or voxel_index >= BOLD_ARRAY.shape[0]:
-            return empty_fig
+@app.callback(
+    Output("download-dataframe-csv", "data"),
+    Input("download-button", "n_clicks"),
+    State("selected-voxel-store", "data"),
+    prevent_initial_call=True
+)
+def download_csv(n_clicks, voxel_index):
+    """
+    Download a CSV of volume index vs. BOLD intensity for the selected voxel,
+    with filename including the voxel coordinate.
+    """
+    if voxel_index is None:
+        raise dash.exceptions.PreventUpdate
 
-        time_series = BOLD_ARRAY[voxel_index]
-        return create_time_series_figure(time_series, voxel_label=f"Voxel {voxel_index}")
+    global BOLD_ARRAY, NODE_COORDS
+    if BOLD_ARRAY is None:
+        raise dash.exceptions.PreventUpdate
+    if voxel_index < 0 or voxel_index >= BOLD_ARRAY.shape[0]:
+        raise dash.exceptions.PreventUpdate
 
-    # 2) If triggered by the "Show Time Series" button
-    elif trigger_id == 'voxel-query-button':
-        # The user typed (vx, vy, vz)
-        if vx is None or vy is None or vz is None:
-            # missing coordinate
-            fig = go.Figure().update_layout(
-                title="Please enter valid voxel coordinates (x, y, z)."
-            )
-            return fig
+    ts = BOLD_ARRAY[voxel_index]
+    coordinate = NODE_COORDS[voxel_index]
+    df = pd.DataFrame({
+        'volume_index': np.arange(len(ts)),
+        'bold_intensity': ts
+    })
+    # Build filename with voxel index and coordinate
+    filename = f"voxel_{voxel_index}_{int(coordinate[0])}_{int(coordinate[1])}_{int(coordinate[2])}_bold.csv"
+    return dcc.send_data_frame(df.to_csv, filename=filename, index=False)
 
-        # convert to int if your coords are integer-based
-        # if your data had float coords, you may need a rounding or nearest lookup
-        try:
-            vx, vy, vz = int(vx), int(vy), int(vz)
-        except ValueError:
-            return go.Figure().update_layout(title="Coordinates must be integer or near-integer.")
 
-        key = (vx, vy, vz)
-        if key not in VOXEL_DICT:
-            fig = go.Figure().update_layout(title=f"No voxel found at {key}")
-            return fig
-
-        voxel_index = VOXEL_DICT[key]
-        time_series = BOLD_ARRAY[voxel_index]
-        return create_time_series_figure(time_series, voxel_label=f"Coord {key}")
-
-    # If neither case applies, just return empty
-    return empty_fig
-
+# ----------------------------------------------------------------------------
+# Main
+# ----------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="Dash-based visualizer for a BOLD-graph PyG Data, with coordinate lookup.")
+    parser = argparse.ArgumentParser(
+        description="Dash-based fMRI GNN Visualizer with coordinate picking & CSV download.")
     parser.add_argument("--path", type=str, required=True,
-                        help="Path to the saved PyG Data .pt file (with x=[num_voxels, 3 + T]).")
+                        help="Path to the saved PyG Data .pt file (shape: [num_voxels, 3 + T]).")
     parser.add_argument("--port", type=int, default=8050, help="Port for the Dash server.")
     parser.add_argument("--host", type=str, default="127.0.0.1", help="Host for the Dash server.")
     parser.add_argument("--debug", action="store_true", help="Enable Dash debug mode.")
     args = parser.parse_args()
 
-    # 1) Load the PyG Data object
+    # Load the PyG Data object
+    print("Loading the PyG Data ...")
     data = torch.load(args.path)
     if not isinstance(data, Data):
-        raise ValueError("Loaded file is not a PyG Data object")
+        raise ValueError("Loaded file is not a PyG Data object.")
 
-    # data.x shape = [N, 3 + T] => first 3 columns: [x, y, z], next T columns: BOLD
-    node_features = data.x.cpu().numpy()  # shape (N, 3+T)
+    node_features = data.x.cpu().numpy()  # shape: [N, 3 + T]
     if node_features.shape[1] < 4:
-        raise ValueError("We expect at least 4 columns: 3 for coords + >=1 for BOLD timepoints")
+        raise ValueError("Expecting [x, y, z] + >=1 BOLD columns (total >=4 columns).")
 
-    global NODE_COORDS, NODE_INTENSITY, BOLD_ARRAY, VOXEL_DICT
+    global NODE_COORDS, NODE_INTENSITY, BOLD_ARRAY, COORD_TO_INDEX
+    N = node_features.shape[0]
+    coords = node_features[:, :3]
+    bold_data = node_features[:, 3:]
 
-    # 2) Extract coords and BOLD
-    coords = node_features[:, :3]       # shape (N, 3)
-    time_series = node_features[:, 3:]  # shape (N, T)
-
-    # We'll color by average BOLD if multiple timepoints; or single if T=1
-    if time_series.shape[1] == 1:
-        intensity = time_series[:, 0]
+    # For coloring the 3D scatter, use the average BOLD if multiple timepoints
+    if bold_data.shape[1] == 1:
+        intensity = bold_data[:, 0]
     else:
-        intensity = time_series.mean(axis=1)
+        intensity = bold_data.mean(axis=1)
 
     NODE_COORDS = coords
     NODE_INTENSITY = intensity
-    BOLD_ARRAY = time_series
+    BOLD_ARRAY = bold_data
 
-    # 3) Build a dict to map (x, y, z) -> index
-    #    (Assuming coords are integer-based. If float, you may need nearest match.)
-    VOXEL_DICT = {}
-    for i in range(coords.shape[0]):
-        vx, vy, vz = coords[i]
-        # Convert to int if your data is integer-based
-        # If your data is truly float, consider rounding or a nearest neighbor approach
-        key = (int(vx), int(vy), int(vz))
-        VOXEL_DICT[key] = i
+    # Build a dictionary for coordinate -> node index (assumes integer voxel indices)
+    COORD_TO_INDEX = {}
+    for idx in range(N):
+        x, y, z = coords[idx].astype(int)
+        COORD_TO_INDEX[(x, y, z)] = idx
 
-    print(f"Loaded data with {coords.shape[0]} voxels, each has {time_series.shape[1]} timepoints.")
-    print(f"Starting Dash server at http://{args.host}:{args.port}")
+    print(f"Loaded graph with {N} voxels, each having {bold_data.shape[1]} timepoints.")
+    print(f"Running Dash at http://{args.host}:{args.port}")
     app.run(host=args.host, port=args.port, debug=args.debug)
 
 
