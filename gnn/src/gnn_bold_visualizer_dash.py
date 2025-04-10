@@ -6,31 +6,25 @@ import torch
 from torch_geometric.data import Data
 
 import dash
-from dash import dcc, html
+from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 import plotly.graph_objs as go
 
 app = dash.Dash(__name__)
 
 # Global data references
-NODE_COORDS = None  # shape (N, 3) for (x, y, z)
-NODE_INTENSITY = None  # shape (N,) for coloring the scatter
-BOLD_ARRAY = None  # shape (N, T) for each voxel's BOLD
-COORD_TO_INDEX = None  # dict {(x, y, z): node_index}
+NODE_COORDS = None      # shape (N, 3) for (x, y, z)
+NODE_INTENSITY = None   # shape (N,) for coloring the scatter
+BOLD_ARRAY = None       # shape (N, T) for each voxel's BOLD
+COORD_TO_INDEX = None   # dict {(x, y, z): node_index}
+EDGE_INDEX = None       # shape (2, E) numpy array holding edge connections
+EDGE_WEIGHT = None      # numpy array holding edge weights for each edge
 DEFAULT_SAMPLE_RATE = 0.1  # 10% downsampling by default for faster initial load
 
 
 def create_3d_scatter_figure(coords, intensity, sample_rate=1.0):
     """
     Build a 3D scatter plot of voxel locations.
-
-    Args:
-        coords (ndarray): shape (N, 3) => voxel [x, y, z].
-        intensity (ndarray): shape (N,) => color (e.g., average BOLD).
-        sample_rate (float): fraction of voxels to plot, to reduce load time.
-
-    Returns:
-        plotly.graph_objs.Figure
     """
     num_voxels = coords.shape[0]
     if sample_rate < 1.0:
@@ -44,7 +38,6 @@ def create_3d_scatter_figure(coords, intensity, sample_rate=1.0):
         intensity_plot = intensity
         indices_plot = np.arange(num_voxels)
 
-    # Store the original voxel index as 'text' (string) for click retrieval
     scatter = go.Scatter3d(
         x=coords_plot[:, 0],
         y=coords_plot[:, 1],
@@ -76,14 +69,6 @@ def create_3d_scatter_figure(coords, intensity, sample_rate=1.0):
 def create_time_series_figure(time_series, voxel_index, coordinate):
     """
     Create a 2D line plot of a single voxel's BOLD time series.
-
-    Args:
-        time_series (ndarray): BOLD values across time.
-        voxel_index (int): The voxel index.
-        coordinate (ndarray or tuple): The (x, y, z) coordinate of the voxel.
-
-    Returns:
-        plotly.graph_objs.Figure: 2D line plot.
     """
     coord_str = f"({int(coordinate[0])}, {int(coordinate[1])}, {int(coordinate[2])})"
     fig = go.Figure()
@@ -101,10 +86,13 @@ def create_time_series_figure(time_series, voxel_index, coordinate):
     return fig
 
 
+# ----------------------------------------------------------------------------
+# Layout
+# ----------------------------------------------------------------------------
 app.layout = html.Div([
     html.H1("BOLD fMRI Graph Visualization (Dash)"),
 
-    # 3D Scatter
+    # 3D Scatter Plot
     dcc.Graph(id='brain-3d-scatter'),
 
     # Time Series Plot
@@ -131,6 +119,7 @@ app.layout = html.Div([
 
     html.Hr(),
 
+    # Input for manual coordinate selection
     html.H3("Manually Pick a (x,y,z) Coordinate:"),
     html.Div([
         "x: ", dcc.Input(id="x-input", type="number", value=0),
@@ -138,6 +127,11 @@ app.layout = html.Div([
         " z: ", dcc.Input(id="z-input", type="number", value=0),
     ], style={'margin-bottom': '10px'}),
     html.Button("Find Voxel", id="find-voxel-button"),
+
+    # New: Dynamic Table for Neighbour Voxels and Edge Weights
+    html.Hr(),
+    html.H3("Neighbour Voxels and Edge Weights:"),
+    html.Div(id="neighbour-table-div")
 ])
 
 
@@ -233,8 +227,7 @@ def update_time_series_plot(voxel_index):
 )
 def download_csv(n_clicks, voxel_index):
     """
-    Download a CSV of volume index vs. BOLD intensity for the selected voxel,
-    with filename including the voxel coordinate.
+    Download a CSV of volume index vs. BOLD intensity for the selected voxel.
     """
     if voxel_index is None:
         raise dash.exceptions.PreventUpdate
@@ -251,9 +244,50 @@ def download_csv(n_clicks, voxel_index):
         'volume_index': np.arange(len(ts)),
         'bold_intensity': ts
     })
-    # Build filename with voxel index and coordinate
     filename = f"voxel_{voxel_index}_{int(coordinate[0])}_{int(coordinate[1])}_{int(coordinate[2])}_bold.csv"
     return dcc.send_data_frame(df.to_csv, filename=filename, index=False)
+
+
+@app.callback(
+    Output("neighbour-table-div", "children"),
+    Input("selected-voxel-store", "data")
+)
+def update_neighbour_table(voxel_index):
+    """
+    Update the neighbours table dynamically based on the selected voxel.
+    For the chosen voxel, scan EDGE_INDEX to find all connected neighbours and 
+    list their (x,y,z) coordinates along with the corresponding edge weight.
+    Duplicate neighbour entries are removed.
+    """
+    global NODE_COORDS, EDGE_INDEX, EDGE_WEIGHT
+
+    if voxel_index is None or EDGE_INDEX is None or EDGE_WEIGHT is None:
+        return html.Div("Select a voxel to see its neighbours and edge weights.")
+
+    # Use a dictionary to keep track of unique neighbours.
+    neighbours = {}
+    # EDGE_INDEX assumed shape: [2, E]
+    for i in range(EDGE_INDEX.shape[1]):
+        src = EDGE_INDEX[0, i]
+        dst = EDGE_INDEX[1, i]
+        if src == voxel_index or dst == voxel_index:
+            neighbour_idx = dst if src == voxel_index else src
+            # Convert coordinate to integer tuple.
+            neighbour_coord = tuple(map(int, NODE_COORDS[neighbour_idx]))
+            # Only add the neighbour if it's not already in the dictionary.
+            if neighbour_coord not in neighbours:
+                neighbours[neighbour_coord] = EDGE_WEIGHT[i]
+
+    if not neighbours:
+        return html.Div("No neighbouring voxels found for the selected voxel.")
+
+    # Build an HTML table with a header and one row per unique neighbour
+    header = [html.Tr([html.Th("Neighbour Voxel (x,y,z)"), html.Th("Edge Weight")])]
+    rows = [html.Tr([html.Td(f"({n[0]}, {n[1]}, {n[2]})"), html.Td(f"{weight:.3f}")])
+            for n, weight in neighbours.items()]
+    table = html.Table(header + rows, style={'width': '50%', 'border': '1px solid black', 'borderCollapse': 'collapse'})
+
+    return table
 
 
 # ----------------------------------------------------------------------------
@@ -262,7 +296,7 @@ def download_csv(n_clicks, voxel_index):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Dash-based fMRI GNN Visualizer with coordinate picking & CSV download.")
+        description="Dash-based fMRI GNN Visualizer with coordinate picking, CSV download, and neighbour table.")
     parser.add_argument("--path", type=str, required=True,
                         help="Path to the saved PyG Data .pt file (shape: [num_voxels, 3 + T]).")
     parser.add_argument("--port", type=int, default=8050, help="Port for the Dash server.")
@@ -272,7 +306,7 @@ def main():
 
     # Load the PyG Data object
     print("Loading the PyG Data ...")
-    data = torch.load(args.path)
+    data = torch.load(args.path, weights_only=False)
     if not isinstance(data, Data):
         raise ValueError("Loaded file is not a PyG Data object.")
 
@@ -280,7 +314,7 @@ def main():
     if node_features.shape[1] < 4:
         raise ValueError("Expecting [x, y, z] + >=1 BOLD columns (total >=4 columns).")
 
-    global NODE_COORDS, NODE_INTENSITY, BOLD_ARRAY, COORD_TO_INDEX
+    global NODE_COORDS, NODE_INTENSITY, BOLD_ARRAY, COORD_TO_INDEX, EDGE_INDEX, EDGE_WEIGHT
     N = node_features.shape[0]
     coords = node_features[:, :3]
     bold_data = node_features[:, 3:]
@@ -301,7 +335,13 @@ def main():
         x, y, z = coords[idx].astype(int)
         COORD_TO_INDEX[(x, y, z)] = idx
 
+    # Load edge information: edge_index and edge_weight.
+    # Expecting edge_index of shape [2, E] and edge_weight with shape [E,]
+    EDGE_INDEX = data.edge_index.cpu().numpy()
+    EDGE_WEIGHT = data.edge_weight.numpy()
+
     print(f"Loaded graph with {N} voxels, each having {bold_data.shape[1]} timepoints.")
+    print(f"Graph connectivity: {EDGE_INDEX.shape[1]} edges loaded.")
     print(f"Running Dash at http://{args.host}:{args.port}")
     app.run(host=args.host, port=args.port, debug=args.debug)
 
