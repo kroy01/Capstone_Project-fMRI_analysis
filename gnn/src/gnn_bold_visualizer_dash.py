@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import argparse
 import numpy as np
 import pandas as pd
@@ -90,48 +89,57 @@ def create_time_series_figure(time_series, voxel_index, coordinate):
 # Layout
 # ----------------------------------------------------------------------------
 app.layout = html.Div([
-    html.H1("BOLD fMRI Graph Visualization (Dash)"),
+    # Top heading (centered)
+    html.H1("BOLD fMRI Graph Visualization (Dash)", style={'textAlign': 'center'}),
 
-    # 3D Scatter Plot
-    dcc.Graph(id='brain-3d-scatter'),
-
-    # Time Series Plot
-    dcc.Graph(id='time-series-plot'),
-
-    # Controls for sample rate
+    # Row container with flex for left and right components
     html.Div([
-        html.Label("Voxel Sample Rate (0.01 to 1.0):"),
-        dcc.Input(
-            id='sample-rate-input',
-            type='number',
-            value=DEFAULT_SAMPLE_RATE,
-            min=0.01,
-            max=1.0,
-            step=0.01
-        ),
-        html.Button("Update Plot", id="update-button"),
-    ], style={'margin-bottom': '20px'}),
+        # Left section (3D Scatter Plot) ~66% width
+        html.Div([
+            dcc.Graph(id='brain-3d-scatter'),
+        ], style={'flex': '2', 'padding': '10px'}),
+
+        # Right section (controls and tables) ~33% width
+        html.Div([
+            html.H3("Neighbour Voxels and Edge Weights:"),
+            html.Div(id="neighbour-table-div", style={'margin-bottom': '20px'}),
+
+            html.H3("Manually Pick a (x,y,z) Coordinate:"),
+            html.Div([
+                "x: ", dcc.Input(id="x-input", type="number", value=0, style={'width': '15%'}),
+                " y: ", dcc.Input(id="y-input", type="number", value=0, style={'width': '15%'}),
+                " z: ", dcc.Input(id="z-input", type="number", value=0, style={'width': '15%'}),
+            ], style={'margin-bottom': '10px'}),
+            html.Button("Find Voxel", id="find-voxel-button", style={'margin-bottom': '20px'}),
+
+            html.Div([
+                html.Label("Voxel Sample Rate (0.01 to 1.0):"),
+                dcc.Input(
+                    id='sample-rate-input',
+                    type='number',
+                    value=DEFAULT_SAMPLE_RATE,
+                    min=0.01,
+                    max=1.0,
+                    step=0.01,
+                    style={'margin-left': '10px', 'margin-right': '10px'}
+                ),
+                html.Button("Update Plot", id="update-button"),
+            ], style={'margin-bottom': '20px'}),
+
+            html.Button("Download CSV", id="download-button"),
+            dcc.Download(id="download-dataframe-csv"),
+
+        ], style={'flex': '1', 'padding': '10px'})
+    ], style={'display': 'flex', 'width': '100%'}),
+
+    html.Hr(),
+
+    # Bottom: Time Series Plot
+    html.H3("Selected Voxel's Time Series Plot (Interactive)", style={'textAlign': 'center'}),
+    dcc.Graph(id='time-series-plot'),
 
     # Hidden store for selected voxel
     dcc.Store(id='selected-voxel-store'),
-    html.Button("Download CSV", id="download-button"),
-    dcc.Download(id="download-dataframe-csv"),
-
-    html.Hr(),
-
-    # Input for manual coordinate selection
-    html.H3("Manually Pick a (x,y,z) Coordinate:"),
-    html.Div([
-        "x: ", dcc.Input(id="x-input", type="number", value=0),
-        " y: ", dcc.Input(id="y-input", type="number", value=0),
-        " z: ", dcc.Input(id="z-input", type="number", value=0),
-    ], style={'margin-bottom': '10px'}),
-    html.Button("Find Voxel", id="find-voxel-button"),
-
-    # New: Dynamic Table for Neighbour Voxels and Edge Weights
-    html.Hr(),
-    html.H3("Neighbour Voxels and Edge Weights:"),
-    html.Div(id="neighbour-table-div")
 ])
 
 
@@ -255,7 +263,7 @@ def download_csv(n_clicks, voxel_index):
 def update_neighbour_table(voxel_index):
     """
     Update the neighbours table dynamically based on the selected voxel.
-    For the chosen voxel, scan EDGE_INDEX to find all connected neighbours and 
+    For the chosen voxel, scan EDGE_INDEX to find all connected neighbours and
     list their (x,y,z) coordinates along with the corresponding edge weight.
     Duplicate neighbour entries are removed.
     """
@@ -264,35 +272,31 @@ def update_neighbour_table(voxel_index):
     if voxel_index is None or EDGE_INDEX is None or EDGE_WEIGHT is None:
         return html.Div("Select a voxel to see its neighbours and edge weights.")
 
-    # Use a dictionary to keep track of unique neighbours.
     neighbours = {}
-    # EDGE_INDEX assumed shape: [2, E]
     for i in range(EDGE_INDEX.shape[1]):
         src = EDGE_INDEX[0, i]
         dst = EDGE_INDEX[1, i]
         if src == voxel_index or dst == voxel_index:
             neighbour_idx = dst if src == voxel_index else src
-            # Convert coordinate to integer tuple.
             neighbour_coord = tuple(map(int, NODE_COORDS[neighbour_idx]))
-            # Only add the neighbour if it's not already in the dictionary.
             if neighbour_coord not in neighbours:
                 neighbours[neighbour_coord] = EDGE_WEIGHT[i]
 
     if not neighbours:
         return html.Div("No neighbouring voxels found for the selected voxel.")
 
-    # Build an HTML table with a header and one row per unique neighbour
     header = [html.Tr([html.Th("Neighbour Voxel (x,y,z)"), html.Th("Edge Weight")])]
     rows = [html.Tr([html.Td(f"({n[0]}, {n[1]}, {n[2]})"), html.Td(f"{weight:.3f}")])
             for n, weight in neighbours.items()]
-    table = html.Table(header + rows, style={'width': '50%', 'border': '1px solid black', 'borderCollapse': 'collapse'})
+    table = html.Table(header + rows, style={
+        'width': '100%',
+        'border': '1px solid black',
+        'borderCollapse': 'collapse',
+        'marginTop': '10px'
+    })
 
     return table
 
-
-# ----------------------------------------------------------------------------
-# Main
-# ----------------------------------------------------------------------------
 
 def main():
     parser = argparse.ArgumentParser(
@@ -336,7 +340,6 @@ def main():
         COORD_TO_INDEX[(x, y, z)] = idx
 
     # Load edge information: edge_index and edge_weight.
-    # Expecting edge_index of shape [2, E] and edge_weight with shape [E,]
     EDGE_INDEX = data.edge_index.cpu().numpy()
     EDGE_WEIGHT = data.edge_weight.numpy()
 
