@@ -5,6 +5,7 @@
 torch==2.3.1+cpu
 torchvision==0.18.1+cpu
 torchaudio==2.3.1+cpu
+torch-geometric==2.6.1
 
 # PyTorch Geometric dependencies (corrected suffixes to +pt23cpu)
 torch-scatter==2.1.2+pt23cpu
@@ -17,3 +18,10 @@ nibabel>=5.2.0
 scikit-learn>=1.5.0
 numpy>=1.26.0
 tqdm>=4.66.0
+
+# Visualization packages
+plotly==6.0.1
+dash==3.0.1
+
+# other utilities
+pandas==2.2.3
