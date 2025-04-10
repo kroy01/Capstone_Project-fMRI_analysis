@@ -44,7 +44,7 @@ def load_fmri_graph_bold_with_coords(
     # --------------------------
     mean_3d = data_4d.mean(axis=3)  # shape: (X, Y, Z)
     mask = mean_3d > threshold
-    coords = np.argwhere(mask)  # list of (x, y, z)
+    coords = np.argwhere(mask)  # list of voxel coordinates (x, y, z)
 
     # --------------------------
     # 3. Build Node Features:
@@ -52,20 +52,18 @@ def load_fmri_graph_bold_with_coords(
     # --------------------------
     node_features = []
     for (vx, vy, vz) in coords:
-        # Extract time series across T volumes
+        # Extract the time series for the given voxel
         time_series = data_4d[vx, vy, vz, :]  # shape: (T,)
-
-        # Combine coords + time_series => shape: (3 + T,)
-        # We'll store the voxel coordinates in the first 3 slots
+        # Combine spatial coordinates and the time series:
         combined = np.concatenate(([vx, vy, vz], time_series))
         node_features.append(combined)
 
-    # Convert to numpy array [num_voxels, 3 + T]
+    # Convert to numpy array: shape [num_voxels, 3 + T]
     node_features = np.array(node_features, dtype=np.float32)
 
     # --------------------------
     # 4. Build Edges (Spatial Connectivity)
-    #    We store edges in both directions => bidirectional
+    #    Bidirectional connectivity based on 6- or 26-neighborhood
     # --------------------------
     coord_dict = {(vx, vy, vz): i for i, (vx, vy, vz) in enumerate(coords)}
 
@@ -84,7 +82,7 @@ def load_fmri_graph_bold_with_coords(
             if not (dx == 0 and dy == 0 and dz == 0)
         ]
     else:
-        raise ValueError("connectivity must be 6 or 26")
+        raise ValueError("Connectivity must be 6 or 26")
 
     edges = []
     for (vx, vy, vz) in coords:
@@ -94,19 +92,57 @@ def load_fmri_graph_bold_with_coords(
             if (nx, ny, nz) in coord_dict:
                 neighbor_index = coord_dict[(nx, ny, nz)]
                 edges.append((this_index, neighbor_index))
-                edges.append((neighbor_index, this_index))  # Bidirectional
+                # Since the neighbor relationship is bidirectional,
+                # the reverse edge is added (this may be redundant if already added)
+                edges.append((neighbor_index, this_index))
+                
+    # --------------------------
+    # 5. Compute Edge Weights based on fMRI time series correlations
+    # --------------------------
+    edge_weights = []
+    # Here, the node_features array has columns [x, y, z, ...time series...]
+    for (i, j) in edges:
+        ts_i = node_features[i][3:]  # Get BOLD time series for voxel i
+        ts_j = node_features[j][3:]  # Get BOLD time series for voxel j
+        
+        # Compute Pearson correlation coefficient between the two time series
+        # (np.corrcoef returns a 2x2 matrix)
+        r = np.corrcoef(ts_i, ts_j)[0, 1]
+        
+        # Normalize the correlation value from [-1, 1] to [0, 1]
+        norm_corr = (r + 1) / 2.0
 
-    # --------------------------
-    # 5. Wrap in PyTorch tensors
-    # --------------------------
-    x_tensor = torch.tensor(node_features, dtype=torch.float)      # [num_voxels, 3+T]
-    edge_index = torch.tensor(edges, dtype=torch.long).t().contiguous()  # [2, num_edges]
-    y_tensor = torch.tensor([label], dtype=torch.long)             # [1]  graph label
+        # Assign weight: base value 1 plus normalized correlation
+        raw_weight = 1 + norm_corr
 
+        edge_weights.append(raw_weight)
+    
+    edge_weights = np.array(edge_weights, dtype=np.float32)
+    
+    # Normalize final edge weights to be between 0 and 1 using min–max normalization
+    min_w = edge_weights.min()
+    max_w = edge_weights.max()
+    if max_w - min_w > 0:
+        final_weights = (edge_weights - min_w) / (max_w - min_w)
+    else:
+        # In the unlikely event all weights are identical, use zeros
+        final_weights = np.zeros_like(edge_weights)
+    
     # --------------------------
-    # 6. Return as PyG Data
+    # 6. Wrap Data in PyTorch Tensors and Return PyG Data
     # --------------------------
-    return Data(x=x_tensor, edge_index=edge_index, y=y_tensor)
+    x_tensor = torch.tensor(node_features, dtype=torch.float)  # Node features tensor: [num_voxels, 3+T]
+    edge_index = torch.tensor(edges, dtype=torch.long).t().contiguous()  # Edge index: [2, num_edges]
+    y_tensor = torch.tensor([label], dtype=torch.long)  # Graph label
+    
+    # Create an edge attribute tensor (edge weights)
+    edge_weight_tensor = torch.tensor(final_weights, dtype=torch.float)
+
+    # Return the data object with nodes, edges, and edge weights (you can add edge_weight as an attribute)
+    return Data(x=x_tensor, edge_index=edge_index, y=y_tensor, edge_weight=edge_weight_tensor)
+
+# Example usage:
+# data = load_fmri_graph_with_weights("path_to_4d_fmri.nii", label=1, connectivity=6)
 
 
 def main():
