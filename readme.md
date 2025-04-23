@@ -1,6 +1,3 @@
----
-
-
 # 🧠 Capstone Project – fMRI Graph Pipeline & GC-LSTM Classifier
 > **Goal:** Robust identification of neuro-degenerative brain-disease stages (CN / EMCI / MCI) from resting-state fMRI using graph neural networks, temporal modeling, and explainable AI.
 
@@ -16,9 +13,8 @@
 7. [Model Architecture](#model-architecture)  
 8. [Dash Visual Analytics](#dash-visual-analytics)  
 9. [Logging & Reproducibility](#logging--reproducibility)  
-10. [Third-party Licences](#third-party-licences)  
-11. [Citation](#citation)  
-12. [Contributing & Licence](#contributing--licence)  
+10. [Third-party Licences](#third-party-licences)   
+11. [Contributing & Licence](#contributing--licence)  
 
 ---
 
@@ -242,47 +238,6 @@ python -m src.dashboard.gnn_bold_visualizer_dash \
 
 *Refer to each project’s repository for full license text.*
 
----
-
-## Citation
-
-```bibtex
-@misc{roy_padamwar_2025_capstone,
-  title        = {A Graph Neural Approach for Robust Identification of Neuro‐degenerative Brain Diseases},
-  author       = {Roy, Krishnendu and Padamwar, Akshay Uday},
-  year         = {2025},
-  howpublished = {\url{https://github.com/<project-url>}},
-  note         = {Dataset and code accessed 2025-04-23}
-}
-
-@article{smith_2004_fsl,
-  title   = {Advances in Functional and Structural MR Image Analysis and Implementation as FSL},
-  author  = {Smith, Stephen M. and others},
-  journal = {NeuroImage},
-  volume  = {23},
-  number  = {S1},
-  pages   = {208--219},
-  year    = {2004}
-}
-
-@article{fischl_2012_freesurfer,
-  title   = {FreeSurfer},
-  author  = {Fischl, Bruce},
-  journal = {NeuroImage},
-  volume  = {62},
-  number  = {2},
-  pages   = {774--781},
-  year    = {2012}
-}
-
-@misc{tange_2024_gnu_parallel,
-  title        = {GNU Parallel 20241222 ('Bashar')},
-  author       = {Tange, Ole},
-  year         = {2024},
-  doi          = {10.5281/zenodo.14550073},
-  howpublished = {\url{https://doi.org/10.5281/zenodo.14550073}}
-}
-```
 ---
 
 ## Contributing & Licence
