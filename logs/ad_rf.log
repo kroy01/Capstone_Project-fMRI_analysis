@@ -1,0 +1,2020 @@
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ ./scripts/resource_format.sh baseline_resource/ad/ resource/ AD
+Processing subjects from: baseline_resource/ad/
+Output will be stored in: resource/
+Label used: AD
+-------------------------------------------------------
+Processing subject: 002_S_5018
+  Processing scan from: baseline_resource/ad//002_S_5018/MPRAGE/2012-11-08_07_22_59.0
+    -> Date: 2012-11-08, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//002_S_5018/MPRAGE/2012-11-08_07_22_59.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.76093:0:0.000347769 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_5018_2012-11-08_AD/T1 (256x256x170x1)
+Conversion required 1.026574 seconds (0.981938 for core code).
+
+  Processing scan from: baseline_resource/ad//002_S_5018/MPRAGE/2013-02-11_07_49_00.0
+    -> Date: 2013-02-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//002_S_5018/MPRAGE/2013-02-11_07_49_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.98803:0:0.000328556 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_5018_2013-02-11_AD/T1 (256x256x170x1)
+Conversion required 1.042529 seconds (0.997551 for core code).
+
+  Processing scan from: baseline_resource/ad//002_S_5018/MPRAGE/2013-05-16_12_20_33.0
+    -> Date: 2013-05-16, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//002_S_5018/MPRAGE/2013-05-16_12_20_33.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.92161:0:0.000351829 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_5018_2013-05-16_AD/T1 (256x256x170x1)
+Conversion required 1.019456 seconds (0.974043 for core code).
+
+  Processing scan from: baseline_resource/ad//002_S_5018/MPRAGE/2013-11-18_10_41_00.0
+    -> Date: 2013-11-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//002_S_5018/MPRAGE/2013-11-18_10_41_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.92747:0:0.000353374 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_5018_2013-11-18_AD/T1 (256x256x170x1)
+Conversion required 0.985718 seconds (0.940763 for core code).
+
+  Processing scan from: baseline_resource/ad//002_S_5018/Resting_State_fMRI/2012-11-08_07_20_35.0
+    -> Date: 2012-11-08, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//002_S_5018/Resting_State_fMRI/2012-11-08_07_20_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.35018:0:0.00075593 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_5018_2012-11-08_AD/func (64x64x48x140)
+Conversion required 4.615094 seconds (3.860027 for core code).
+
+  Processing scan from: baseline_resource/ad//002_S_5018/Resting_State_fMRI/2013-02-11_07_46_12.0
+    -> Date: 2013-02-11, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//002_S_5018/Resting_State_fMRI/2013-02-11_07_46_12.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22833:0:0.000766453 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_5018_2013-02-11_AD/func (64x64x48x140)
+Conversion required 4.599801 seconds (3.849306 for core code).
+
+  Processing scan from: baseline_resource/ad//002_S_5018/Resting_State_fMRI/2013-05-16_12_20_33.0
+    -> Date: 2013-05-16, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//002_S_5018/Resting_State_fMRI/2013-05-16_12_20_33.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.26178:0:0.000807604 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_5018_2013-05-16_AD/func (64x64x48x140)
+Conversion required 4.427915 seconds (3.806935 for core code).
+
+  Processing scan from: baseline_resource/ad//002_S_5018/Resting_State_fMRI/2013-11-18_10_41_00.0
+    -> Date: 2013-11-18, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//002_S_5018/Resting_State_fMRI/2013-11-18_10_41_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.74701:0:0.000799617 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_5018_2013-11-18_AD/func (64x64x48x140)
+Conversion required 4.458755 seconds (3.658834 for core code).
+
+
+Processing subject: 003_S_6264
+  Processing scan from: baseline_resource/ad//003_S_6264/Accelerated_Sagittal_MPRAGE/2018-06-04_13_53_15.0
+    -> Date: 2018-06-04, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//003_S_6264/Accelerated_Sagittal_MPRAGE/2018-06-04_13_53_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//003_S_6264_2018-06-04_AD/T1 (240x256x208x1)
+Conversion required 1.707868 seconds (1.663615 for core code).
+
+  Processing scan from: baseline_resource/ad//003_S_6264/Axial_rsfMRI__Eyes_Open_/2018-06-04_13_53_15.0
+    -> Date: 2018-06-04, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//003_S_6264/Axial_rsfMRI__Eyes_Open_/2018-06-04_13_53_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//003_S_6264_2018-06-04_AD/func (64x64x48x197)
+Conversion required 4.872519 seconds (4.700618 for core code).
+
+
+Processing subject: 003_S_6833
+  Processing scan from: baseline_resource/ad//003_S_6833/Accelerated_Sagittal_MPRAGE/2019-11-07_13_27_11.0
+    -> Date: 2019-11-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//003_S_6833/Accelerated_Sagittal_MPRAGE/2019-11-07_13_27_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//003_S_6833_2019-11-07_AD/T1 (240x256x208x1)
+Conversion required 1.766306 seconds (1.710818 for core code).
+
+  Processing scan from: baseline_resource/ad//003_S_6833/Axial_rsfMRI__Eyes_Open_/2019-11-07_13_27_11.0
+    -> Date: 2019-11-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//003_S_6833/Axial_rsfMRI__Eyes_Open_/2019-11-07_13_27_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//003_S_6833_2019-11-07_AD/func (64x64x48x197)
+Conversion required 5.034863 seconds (4.975851 for core code).
+
+
+Processing subject: 006_S_4153
+  Processing scan from: baseline_resource/ad//006_S_4153/MPRAGE/2011-08-03_08_12_01.0
+    -> Date: 2011-08-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4153/MPRAGE/2011-08-03_08_12_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.41783:0:0.00431614 (see PMC3998685)
+Convert 1 DICOM as resource//006_S_4153_2011-08-03_AD/T1 (256x256x170x1)
+Conversion required 0.884579 seconds (0.873500 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/MPRAGE/2011-11-04_12_16_02.0
+    -> Date: 2011-11-04, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4153/MPRAGE/2011-11-04_12_16_02.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.36484:0:0.00410468 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4153_2011-11-04_AD/T1 (256x256x170x1)
+Conversion required 0.967826 seconds (0.922141 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/MPRAGE/2012-03-27_12_12_35.0
+    -> Date: 2012-03-27, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4153/MPRAGE/2012-03-27_12_12_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.31087:0:0.00478223 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4153_2012-03-27_AD/T1 (256x256x170x1)
+Conversion required 0.911010 seconds (0.871001 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/MPRAGE/2012-09-18_12_44_45.0
+    -> Date: 2012-09-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4153/MPRAGE/2012-09-18_12_44_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.79365:0:0.00310648 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4153_2012-09-18_AD/T1 (256x256x170x1)
+Conversion required 0.944967 seconds (0.898476 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/MPRAGE/2013-09-16_13_02_45.0
+    -> Date: 2013-09-16, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4153/MPRAGE/2013-09-16_13_02_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.14408:0:0.00346948 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4153_2013-09-16_AD/T1 (256x256x170x1)
+Conversion required 0.913733 seconds (0.874998 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/Resting_State_fMRI/2011-08-03_08_12_01.0
+    -> Date: 2011-08-03, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4153/Resting_State_fMRI/2011-08-03_08_12_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.22589:0:0.00726704 (see PMC3998685)
+Convert 1 DICOM as resource//006_S_4153_2011-08-03_AD/func (64x64x48x140)
+Conversion required 3.206821 seconds (3.187696 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/Resting_State_fMRI/2011-11-04_11_36_04.0
+    -> Date: 2011-11-04, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4153/Resting_State_fMRI/2011-11-04_11_36_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00625239 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4153_2011-11-04_AD/func (64x64x48x140)
+Conversion required 4.687721 seconds (3.948075 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/Resting_State_fMRI/2012-03-27_12_10_13.0
+    -> Date: 2012-03-27, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4153/Resting_State_fMRI/2012-03-27_12_10_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.38462:0:0.00804689 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4153_2012-03-27_AD/func (64x64x48x140)
+Conversion required 4.600556 seconds (3.846395 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/Resting_State_fMRI/2012-09-18_12_41_31.0
+    -> Date: 2012-09-18, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4153/Resting_State_fMRI/2012-09-18_12_41_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00445145 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4153_2012-09-18_AD/func (64x64x48x140)
+Conversion required 4.837426 seconds (4.088984 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4153/Resting_State_fMRI/2013-09-16_13_02_45.0
+    -> Date: 2013-09-16, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4153/Resting_State_fMRI/2013-09-16_13_02_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00451658 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4153_2013-09-16_AD/func (64x64x48x140)
+Conversion required 4.760705 seconds (4.013280 for core code).
+
+
+Processing subject: 006_S_4192
+  Processing scan from: baseline_resource/ad//006_S_4192/MPRAGE/2011-09-27_09_52_14.0
+    -> Date: 2011-09-27, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4192/MPRAGE/2011-09-27_09_52_14.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.0779:0:0.00468682 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4192_2011-09-27_AD/T1 (256x256x170x1)
+Conversion required 0.921027 seconds (0.875466 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/MPRAGE/2011-12-15_14_16_21.0
+    -> Date: 2011-12-15, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4192/MPRAGE/2011-12-15_14_16_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.15385:0:0.00429667 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4192_2011-12-15_AD/T1 (256x256x170x1)
+Conversion required 0.922728 seconds (0.877256 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/MPRAGE/2012-05-07_13_25_52.0
+    -> Date: 2012-05-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4192/MPRAGE/2012-05-07_13_25_52.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.67961:0:0.00341709 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4192_2012-05-07_AD/T1 (256x256x170x1)
+Conversion required 0.980550 seconds (0.932661 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/MPRAGE/2012-10-15_11_17_05.0
+    -> Date: 2012-10-15, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4192/MPRAGE/2012-10-15_11_17_05.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.04591:0:0.00389586 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4192_2012-10-15_AD/T1 (256x256x170x1)
+Conversion required 0.908436 seconds (0.862718 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/MPRAGE/2013-10-03_13_23_17.0
+    -> Date: 2013-10-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4192/MPRAGE/2013-10-03_13_23_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.54774:0:0.00363049 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4192_2013-10-03_AD/T1 (256x256x170x1)
+Conversion required 0.904648 seconds (0.859223 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/Resting_State_fMRI/2011-09-27_09_21_48.0
+    -> Date: 2011-09-27, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4192/Resting_State_fMRI/2011-09-27_09_21_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00601831 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4192_2011-09-27_AD/func (64x64x48x140)
+Conversion required 4.854423 seconds (4.103208 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/Resting_State_fMRI/2011-12-15_14_11_44.0
+    -> Date: 2011-12-15, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4192/Resting_State_fMRI/2011-12-15_14_11_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00485842 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4192_2011-12-15_AD/func (64x64x48x140)
+Conversion required 4.967480 seconds (4.212955 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/Resting_State_fMRI/2012-05-07_11_49_09.0
+    -> Date: 2012-05-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4192/Resting_State_fMRI/2012-05-07_11_49_09.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.29963:0:0.00372323 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4192_2012-05-07_AD/func (64x64x48x140)
+Conversion required 5.059770 seconds (4.315068 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/Resting_State_fMRI/2012-10-15_11_12_18.0
+    -> Date: 2012-10-15, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4192/Resting_State_fMRI/2012-10-15_11_12_18.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00542241 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4192_2012-10-15_AD/func (64x64x48x140)
+Conversion required 4.856477 seconds (4.110164 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4192/Resting_State_fMRI/2013-10-03_13_23_17.0
+    -> Date: 2013-10-03, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4192/Resting_State_fMRI/2013-10-03_13_23_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00446639 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4192_2013-10-03_AD/func (64x64x48x140)
+Conversion required 4.851300 seconds (4.108086 for core code).
+
+
+Processing subject: 006_S_4546
+  Processing scan from: baseline_resource/ad//006_S_4546/MPRAGE/2012-03-05_13_52_08.0
+    -> Date: 2012-03-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4546/MPRAGE/2012-03-05_13_52_08.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.8022:0:0.00440185 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4546_2012-03-05_AD/T1 (256x256x170x1)
+Conversion required 1.072796 seconds (1.026820 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4546/MPRAGE/2012-06-18_10_55_23.0
+    -> Date: 2012-06-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4546/MPRAGE/2012-06-18_10_55_23.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.5956:0:0.0039791 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4546_2012-06-18_AD/T1 (256x256x170x1)
+Conversion required 0.979325 seconds (0.933697 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4546/MPRAGE/2012-09-24_12_31_22.0
+    -> Date: 2012-09-24, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4546/MPRAGE/2012-09-24_12_31_22.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.09206:0:0.00364534 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4546_2012-09-24_AD/T1 (256x256x170x1)
+Conversion required 1.074271 seconds (1.028417 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4546/Resting_State_fMRI/2012-03-05_13_45_58.0
+    -> Date: 2012-03-05, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4546/Resting_State_fMRI/2012-03-05_13_45_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.3011:0:0.00638772 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4546_2012-03-05_AD/func (64x64x48x140)
+Conversion required 4.660572 seconds (3.928984 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4546/Resting_State_fMRI/2012-06-18_10_50_46.0
+    -> Date: 2012-06-18, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4546/Resting_State_fMRI/2012-06-18_10_50_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.46398:0:0.00558635 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4546_2012-06-18_AD/func (64x64x48x140)
+Conversion required 4.636952 seconds (3.905801 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4546/Resting_State_fMRI/2012-09-24_12_27_31.0
+    -> Date: 2012-09-24, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4546/Resting_State_fMRI/2012-09-24_12_27_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.64518:0:0.00532597 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4546_2012-09-24_AD/func (80x80x48x140)
+Conversion required 6.952980 seconds (6.113289 for core code).
+
+
+Processing subject: 006_S_4867
+  Processing scan from: baseline_resource/ad//006_S_4867/MPRAGE/2012-08-07_10_36_45.0
+    -> Date: 2012-08-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4867/MPRAGE/2012-08-07_10_36_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.42979:0:0.00387427 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4867_2012-08-07_AD/T1 (256x256x170x1)
+Conversion required 0.979976 seconds (0.940514 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4867/MPRAGE/2012-11-13_11_16_51.0
+    -> Date: 2012-11-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4867/MPRAGE/2012-11-13_11_16_51.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.60952:0:0.00399506 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4867_2012-11-13_AD/T1 (256x256x170x1)
+Conversion required 0.973160 seconds (0.928182 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4867/MPRAGE/2013-03-04_13_59_38.0
+    -> Date: 2013-03-04, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4867/MPRAGE/2013-03-04_13_59_38.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.6884:0:0.00332997 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4867_2013-03-04_AD/T1 (256x256x170x1)
+Conversion required 0.889896 seconds (0.844262 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4867/MPRAGE/2013-10-14_13_45_45.0
+    -> Date: 2013-10-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//006_S_4867/MPRAGE/2013-10-14_13_45_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.47424:0:0.00369935 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4867_2013-10-14_AD/T1 (256x256x170x1)
+Conversion required 0.948125 seconds (0.902997 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4867/Resting_State_fMRI/2012-08-07_10_31_52.0
+    -> Date: 2012-08-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4867/Resting_State_fMRI/2012-08-07_10_31_52.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.33284:0:0.00419817 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4867_2012-08-07_AD/func (64x64x48x140)
+Conversion required 4.985936 seconds (4.254817 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4867/Resting_State_fMRI/2012-11-13_11_10_28.0
+    -> Date: 2012-11-13, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4867/Resting_State_fMRI/2012-11-13_11_10_28.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.33016:0:0.00578193 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4867_2012-11-13_AD/func (64x64x48x140)
+Conversion required 5.033329 seconds (4.302472 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4867/Resting_State_fMRI/2013-03-04_13_37_07.0
+    -> Date: 2013-03-04, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4867/Resting_State_fMRI/2013-03-04_13_37_07.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.0052743 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4867_2013-03-04_AD/func (64x64x48x140)
+Conversion required 4.817145 seconds (4.083024 for core code).
+
+  Processing scan from: baseline_resource/ad//006_S_4867/Resting_State_fMRI/2013-10-14_13_45_45.0
+    -> Date: 2013-10-14, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//006_S_4867/Resting_State_fMRI/2013-10-14_13_45_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.37851:0:0.00698326 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4867_2013-10-14_AD/func (64x64x48x140)
+Conversion required 4.700732 seconds (3.971126 for core code).
+
+
+Processing subject: 010_S_5163
+  Processing scan from: baseline_resource/ad//010_S_5163/MPRAGE/2013-05-29_08_21_54.0
+    -> Date: 2013-05-29, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//010_S_5163/MPRAGE/2013-05-29_08_21_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.66276:0:0.000491374 (see PMC3998685)
+Convert 170 DICOM as resource//010_S_5163_2013-05-29_AD/T1 (256x256x170x1)
+Conversion required 1.010601 seconds (0.965960 for core code).
+
+  Processing scan from: baseline_resource/ad//010_S_5163/Resting_State_fMRI/2013-05-29_08_21_54.0
+    -> Date: 2013-05-29, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//010_S_5163/Resting_State_fMRI/2013-05-29_08_21_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.87179:0:0.000512618 (see PMC3998685)
+Convert 6720 DICOM as resource//010_S_5163_2013-05-29_AD/func (64x64x48x140)
+Conversion required 4.799961 seconds (4.065179 for core code).
+
+
+Processing subject: 011_S_4827
+  Processing scan from: baseline_resource/ad//011_S_4827/Accelerated_Sagittal_MPRAGE/2017-08-31_13_51_09.0
+    -> Date: 2017-08-31, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//011_S_4827/Accelerated_Sagittal_MPRAGE/2017-08-31_13_51_09.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//011_S_4827_2017-08-31_AD/T1 (240x256x208x1)
+Conversion required 1.795010 seconds (1.738631 for core code).
+
+  Processing scan from: baseline_resource/ad//011_S_4827/Axial_rsfMRI__Eyes_Open_/2017-08-31_13_51_09.0
+    -> Date: 2017-08-31, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//011_S_4827/Axial_rsfMRI__Eyes_Open_/2017-08-31_13_51_09.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//011_S_4827_2017-08-31_AD/func (64x64x48x197)
+Conversion required 4.849307 seconds (4.796221 for core code).
+
+
+Processing subject: 011_S_6303
+  Processing scan from: baseline_resource/ad//011_S_6303/Accelerated_Sagittal_MPRAGE/2018-04-12_13_06_54.0
+    -> Date: 2018-04-12, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//011_S_6303/Accelerated_Sagittal_MPRAGE/2018-04-12_13_06_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//011_S_6303_2018-04-12_AD/T1 (240x256x208x1)
+Conversion required 1.631413 seconds (1.576145 for core code).
+
+  Processing scan from: baseline_resource/ad//011_S_6303/Accelerated_Sagittal_MPRAGE/2019-04-30_09_41_30.0
+    -> Date: 2019-04-30, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//011_S_6303/Accelerated_Sagittal_MPRAGE/2019-04-30_09_41_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//011_S_6303_2019-04-30_AD/T1 (240x256x208x1)
+Conversion required 1.595231 seconds (1.539805 for core code).
+
+  Processing scan from: baseline_resource/ad//011_S_6303/Axial_rsfMRI__Eyes_Open_/2018-04-12_13_06_54.0
+    -> Date: 2018-04-12, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//011_S_6303/Axial_rsfMRI__Eyes_Open_/2018-04-12_13_06_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//011_S_6303_2018-04-12_AD/func (64x64x48x197)
+Conversion required 4.536302 seconds (4.454364 for core code).
+
+  Processing scan from: baseline_resource/ad//011_S_6303/Axial_rsfMRI__Eyes_Open_/2019-04-30_09_41_30.0
+    -> Date: 2019-04-30, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//011_S_6303/Axial_rsfMRI__Eyes_Open_/2019-04-30_09_41_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//011_S_6303_2019-04-30_AD/func (64x64x48x197)
+Conversion required 4.445521 seconds (4.385748 for core code).
+
+
+Processing subject: 013_S_5071
+  Processing scan from: baseline_resource/ad//013_S_5071/MPRAGE/2013-02-12_17_03_46.0
+    -> Date: 2013-02-12, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//013_S_5071/MPRAGE/2013-02-12_17_03_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.55336:0:0.00031042 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_5071_2013-02-12_AD/T1 (256x256x170x1)
+Conversion required 1.133863 seconds (1.088535 for core code).
+
+  Processing scan from: baseline_resource/ad//013_S_5071/MPRAGE/2013-05-20_14_30_00.0
+    -> Date: 2013-05-20, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//013_S_5071/MPRAGE/2013-05-20_14_30_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.5177:0:0.000291394 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_5071_2013-05-20_AD/T1 (256x256x170x1)
+Conversion required 1.298416 seconds (1.252697 for core code).
+
+  Processing scan from: baseline_resource/ad//013_S_5071/MPRAGE/2013-08-27_11_48_20.0
+    -> Date: 2013-08-27, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//013_S_5071/MPRAGE/2013-08-27_11_48_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.20879:0:0.000284234 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_5071_2013-08-27_AD/T1 (256x256x170x1)
+Conversion required 1.273355 seconds (1.228094 for core code).
+
+  Processing scan from: baseline_resource/ad//013_S_5071/Resting_State_fMRI/2013-02-12_17_00_33.0
+    -> Date: 2013-02-12, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//013_S_5071/Resting_State_fMRI/2013-02-12_17_00_33.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.54652:0:0.000556367 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_5071_2013-02-12_AD/func (64x64x48x140)
+Conversion required 4.625844 seconds (3.875829 for core code).
+
+  Processing scan from: baseline_resource/ad//013_S_5071/Resting_State_fMRI/2013-05-20_14_30_00.0
+    -> Date: 2013-05-20, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//013_S_5071/Resting_State_fMRI/2013-05-20_14_30_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 3.7895:0:0.000216398 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_5071_2013-05-20_AD/func (64x64x48x140)
+Conversion required 4.753299 seconds (4.001981 for core code).
+
+  Processing scan from: baseline_resource/ad//013_S_5071/Resting_State_fMRI/2013-08-27_11_48_20.0
+    -> Date: 2013-08-27, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//013_S_5071/Resting_State_fMRI/2013-08-27_11_48_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.5873:0:0.000244375 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_5071_2013-08-27_AD/func (64x64x48x140)
+Conversion required 4.783278 seconds (4.031603 for core code).
+
+
+Processing subject: 013_S_6768
+  Processing scan from: baseline_resource/ad//013_S_6768/Accelerated_Sagittal_MPRAGE/2019-07-19_10_27_15.0
+    -> Date: 2019-07-19, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//013_S_6768/Accelerated_Sagittal_MPRAGE/2019-07-19_10_27_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//013_S_6768_2019-07-19_AD/T1 (240x256x176x1)
+Conversion required 1.411263 seconds (1.363857 for core code).
+
+  Processing scan from: baseline_resource/ad//013_S_6768/Axial_rsfMRI__EYES_OPEN_/2019-07-19_10_27_15.0
+    -> Date: 2019-07-19, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//013_S_6768/Axial_rsfMRI__EYES_OPEN_/2019-07-19_10_27_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//013_S_6768_2019-07-19_AD/func (64x64x48x197)
+Conversion required 5.550226 seconds (5.471816 for core code).
+
+
+Processing subject: 013_S_6975
+  Processing scan from: baseline_resource/ad//013_S_6975/Accelerated_Sagittal_MPRAGE_ND/2021-12-21_13_17_55.0
+    -> Date: 2021-12-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//013_S_6975/Accelerated_Sagittal_MPRAGE_ND/2021-12-21_13_17_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//013_S_6975_2021-12-21_AD/T1 (240x256x176x1)
+Conversion required 1.332831 seconds (1.285665 for core code).
+
+  Processing scan from: baseline_resource/ad//013_S_6975/Axial_rsfMRI__EYES_OPEN_/2021-12-21_13_17_55.0
+    -> Date: 2021-12-21, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//013_S_6975/Axial_rsfMRI__EYES_OPEN_/2021-12-21_13_17_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//013_S_6975_2021-12-21_AD/func (64x64x48x197)
+Conversion required 5.140849 seconds (5.062153 for core code).
+
+
+Processing subject: 018_S_4696
+  Processing scan from: baseline_resource/ad//018_S_4696/Extended_Resting_State_fMRI/2014-04-29_11_06_39.0
+    -> Date: 2014-04-29, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_4696/Extended_Resting_State_fMRI/2014-04-29_11_06_39.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.75922:0:0.00070128 (see PMC3998685)
+Convert 9600 DICOM as resource//018_S_4696_2014-04-29_AD/func (64x64x48x200)
+Conversion required 6.717747 seconds (5.647340 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4696/MPRAGE/2012-05-01_14_04_00.0
+    -> Date: 2012-05-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_4696/MPRAGE/2012-05-01_14_04_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.97924:0:0.000396776 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_4696_2012-05-01_AD/T1 (256x256x170x1)
+Conversion required 1.402338 seconds (1.356779 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4696/MPRAGE/2012-08-03_09_07_02.0
+    -> Date: 2012-08-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_4696/MPRAGE/2012-08-03_09_07_02.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.97289:0:0.000370924 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_4696_2012-08-03_AD/T1 (256x256x170x1)
+Conversion required 1.310988 seconds (1.265422 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4696/MPRAGE/2012-11-01_11_27_48.0
+    -> Date: 2012-11-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_4696/MPRAGE/2012-11-01_11_27_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.82149:0:0.0003934 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_4696_2012-11-01_AD/T1 (256x256x170x1)
+Conversion required 1.366433 seconds (1.326971 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4696/MPRAGE/2014-04-29_11_06_39.0
+    -> Date: 2014-04-29, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_4696/MPRAGE/2014-04-29_11_06_39.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.96337:0:0.000390166 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_4696_2014-04-29_AD/T1 (256x256x170x1)
+Conversion required 1.365470 seconds (1.319853 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4696/Resting_State_fMRI/2012-05-01_13_41_59.0
+    -> Date: 2012-05-01, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_4696/Resting_State_fMRI/2012-05-01_13_41_59.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000683177 (see PMC3998685)
+Convert 6720 DICOM as resource//018_S_4696_2012-05-01_AD/func (64x64x48x140)
+Conversion required 4.774595 seconds (4.019774 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4696/Resting_State_fMRI/2012-08-03_08_58_13.0
+    -> Date: 2012-08-03, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_4696/Resting_State_fMRI/2012-08-03_08_58_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.69792:0:0.000749774 (see PMC3998685)
+Convert 6720 DICOM as resource//018_S_4696_2012-08-03_AD/func (64x64x48x140)
+Conversion required 4.755883 seconds (4.002896 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4696/Resting_State_fMRI/2012-11-01_11_17_01.0
+    -> Date: 2012-11-01, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_4696/Resting_State_fMRI/2012-11-01_11_17_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.66154:0:0.000777754 (see PMC3998685)
+Convert 6720 DICOM as resource//018_S_4696_2012-11-01_AD/func (64x64x48x140)
+Conversion required 4.704686 seconds (3.954907 for core code).
+
+
+Processing subject: 018_S_4733
+  Processing scan from: baseline_resource/ad//018_S_4733/MPRAGE/2012-05-23_10_07_49.0
+    -> Date: 2012-05-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_4733/MPRAGE/2012-05-23_10_07_49.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.56337:0:0.000333888 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_4733_2012-05-23_AD/T1 (256x256x170x1)
+Conversion required 1.335529 seconds (1.290254 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4733/MPRAGE/2012-08-29_15_33_00.0
+    -> Date: 2012-08-29, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_4733/MPRAGE/2012-08-29_15_33_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.33162:0:0.000349551 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_4733_2012-08-29_AD/T1 (256x256x170x1)
+Conversion required 1.387975 seconds (1.342295 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4733/MPRAGE/2012-11-30_11_17_58.0
+    -> Date: 2012-11-30, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_4733/MPRAGE/2012-11-30_11_17_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.35849:0:0.000334947 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_4733_2012-11-30_AD/T1 (256x256x170x1)
+Conversion required 1.313632 seconds (1.268142 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4733/Resting_State_fMRI/2012-05-23_09_56_33.0
+    -> Date: 2012-05-23, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_4733/Resting_State_fMRI/2012-05-23_09_56_33.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.93675:0:0.000602692 (see PMC3998685)
+Convert 6720 DICOM as resource//018_S_4733_2012-05-23_AD/func (64x64x48x140)
+Conversion required 4.516277 seconds (3.766717 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4733/Resting_State_fMRI/2012-08-29_15_23_12.0
+    -> Date: 2012-08-29, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_4733/Resting_State_fMRI/2012-08-29_15_23_12.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.7939:0:0.000687255 (see PMC3998685)
+Convert 6720 DICOM as resource//018_S_4733_2012-08-29_AD/func (64x64x48x140)
+Conversion required 4.501298 seconds (3.758220 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_4733/Resting_State_fMRI/2012-11-30_11_03_51.0
+    -> Date: 2012-11-30, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_4733/Resting_State_fMRI/2012-11-30_11_03_51.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.78584:0:0.000618976 (see PMC3998685)
+Convert 6720 DICOM as resource//018_S_4733_2012-11-30_AD/func (64x64x48x140)
+Conversion required 4.546555 seconds (3.785046 for core code).
+
+
+Processing subject: 018_S_5074
+  Processing scan from: baseline_resource/ad//018_S_5074/MPRAGE/2013-02-15_09_15_31.0
+    -> Date: 2013-02-15, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//018_S_5074/MPRAGE/2013-02-15_09_15_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.97363:0:0.000375323 (see PMC3998685)
+Convert 170 DICOM as resource//018_S_5074_2013-02-15_AD/T1 (256x256x170x1)
+Conversion required 1.516059 seconds (1.469328 for core code).
+
+  Processing scan from: baseline_resource/ad//018_S_5074/Resting_State_fMRI/2013-02-15_09_06_17.0
+    -> Date: 2013-02-15, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//018_S_5074/Resting_State_fMRI/2013-02-15_09_06_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.33016:0:0.000687874 (see PMC3998685)
+Convert 6720 DICOM as resource//018_S_5074_2013-02-15_AD/func (64x64x48x140)
+Conversion required 4.670440 seconds (3.920266 for core code).
+
+
+Processing subject: 019_S_4252
+  Processing scan from: baseline_resource/ad//019_S_4252/MPRAGE/2011-09-28_11_03_48.0
+    -> Date: 2011-09-28, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4252/MPRAGE/2011-09-28_11_03_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.83932:0:0.000411291 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4252_2011-09-28_AD/T1 (256x256x170x1)
+Conversion required 1.152479 seconds (1.078849 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/MPRAGE/2011-12-14_12_03_39.0
+    -> Date: 2011-12-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4252/MPRAGE/2011-12-14_12_03_39.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.99487:0:0.000454071 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4252_2011-12-14_AD/T1 (256x256x170x1)
+Conversion required 1.133713 seconds (1.026765 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/MPRAGE/2012-04-24_13_15_28.0
+    -> Date: 2012-04-24, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4252/MPRAGE/2012-04-24_13_15_28.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.77387:0:0.000440316 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4252_2012-04-24_AD/T1 (256x256x170x1)
+Conversion required 1.328540 seconds (1.208721 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/MPRAGE/2012-10-23_12_52_15.0
+    -> Date: 2012-10-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4252/MPRAGE/2012-10-23_12_52_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.88376:0:0.000442122 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4252_2012-10-23_AD/T1 (256x256x170x1)
+Conversion required 1.147956 seconds (1.043234 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/MPRAGE/2013-10-17_12_37_35.0
+    -> Date: 2013-10-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4252/MPRAGE/2013-10-17_12_37_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.85226:0:0.000453574 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4252_2013-10-17_AD/T1 (256x256x170x1)
+Conversion required 1.202071 seconds (1.162346 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/Resting_State_fMRI/2011-09-28_10_46_44.0
+    -> Date: 2011-09-28, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4252/Resting_State_fMRI/2011-09-28_10_46_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.3011:0:0.000677771 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4252_2011-09-28_AD/func (64x64x48x140)
+Conversion required 4.728507 seconds (3.989153 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/Resting_State_fMRI/2011-12-14_11_55_46.0
+    -> Date: 2011-12-14, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4252/Resting_State_fMRI/2011-12-14_11_55_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.59487:0:0.000842626 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4252_2011-12-14_AD/func (64x64x48x140)
+Conversion required 4.635597 seconds (3.900043 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/Resting_State_fMRI/2012-04-24_12_59_17.0
+    -> Date: 2012-04-24, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4252/Resting_State_fMRI/2012-04-24_12_59_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.40122:0:0.00107884 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4252_2012-04-24_AD/func (64x64x48x140)
+Conversion required 4.580682 seconds (3.851080 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/Resting_State_fMRI/2012-10-23_12_49_15.0
+    -> Date: 2012-10-23, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4252/Resting_State_fMRI/2012-10-23_12_49_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000734697 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4252_2012-10-23_AD/func (64x64x48x140)
+Conversion required 4.729207 seconds (3.973658 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4252/Resting_State_fMRI/2013-10-17_12_37_35.0
+    -> Date: 2013-10-17, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4252/Resting_State_fMRI/2013-10-17_12_37_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.38315:0:0.000876666 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4252_2013-10-17_AD/func (64x64x48x140)
+Conversion required 4.724184 seconds (3.988273 for core code).
+
+
+Processing subject: 019_S_4477
+  Processing scan from: baseline_resource/ad//019_S_4477/MPRAGE/2012-01-25_15_47_07.0
+    -> Date: 2012-01-25, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4477/MPRAGE/2012-01-25_15_47_07.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.83761:0:0.000445673 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4477_2012-01-25_AD/T1 (256x256x170x1)
+Conversion required 1.172227 seconds (1.127352 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/MPRAGE/2012-04-11_11_16_26.0
+    -> Date: 2012-04-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4477/MPRAGE/2012-04-11_11_16_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.90745:0:0.000474389 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4477_2012-04-11_AD/T1 (256x256x170x1)
+Conversion required 1.123965 seconds (1.079069 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/MPRAGE/2012-08-07_13_59_44.0
+    -> Date: 2012-08-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4477/MPRAGE/2012-08-07_13_59_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.69255:0:0.000501312 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4477_2012-08-07_AD/T1 (256x256x170x1)
+Conversion required 1.102250 seconds (1.057633 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/MPRAGE/2013-02-13_12_33_47.0
+    -> Date: 2013-02-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4477/MPRAGE/2013-02-13_12_33_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.72503:0:0.000472066 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4477_2013-02-13_AD/T1 (256x256x170x1)
+Conversion required 1.212964 seconds (1.167690 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/MPRAGE/2014-02-06_13_46_21.0
+    -> Date: 2014-02-06, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4477/MPRAGE/2014-02-06_13_46_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.86813:0:0.000500452 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4477_2014-02-06_AD/T1 (256x256x170x1)
+Conversion required 1.113683 seconds (1.068872 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/Resting_State_fMRI/2012-01-25_15_30_47.0
+    -> Date: 2012-01-25, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4477/Resting_State_fMRI/2012-01-25_15_30_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.23663:0:0.000970233 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4477_2012-01-25_AD/func (64x64x48x140)
+Conversion required 4.670412 seconds (3.919573 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/Resting_State_fMRI/2012-04-11_11_05_13.0
+    -> Date: 2012-04-11, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4477/Resting_State_fMRI/2012-04-11_11_05_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.27057:0:0.000988212 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4477_2012-04-11_AD/func (64x64x48x140)
+Conversion required 4.668556 seconds (3.918545 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/Resting_State_fMRI/2012-08-07_13_19_00.0
+    -> Date: 2012-08-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4477/Resting_State_fMRI/2012-08-07_13_19_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00117704 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4477_2012-08-07_AD/func (64x64x48x140)
+Conversion required 4.643917 seconds (3.894348 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/Resting_State_fMRI/2013-02-13_12_21_16.0
+    -> Date: 2013-02-13, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4477/Resting_State_fMRI/2013-02-13_12_21_16.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.81416:0:0.00120731 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4477_2013-02-13_AD/func (64x64x48x140)
+Conversion required 4.664526 seconds (3.912479 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4477/Resting_State_fMRI/2014-02-06_13_46_21.0
+    -> Date: 2014-02-06, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4477/Resting_State_fMRI/2014-02-06_13_46_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.0010986 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4477_2014-02-06_AD/func (64x64x48x140)
+Conversion required 4.722311 seconds (3.967104 for core code).
+
+
+Processing subject: 019_S_4549
+  Processing scan from: baseline_resource/ad//019_S_4549/MPRAGE/2012-04-23_17_01_11.0
+    -> Date: 2012-04-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4549/MPRAGE/2012-04-23_17_01_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.05519:0:0.000390196 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4549_2012-04-23_AD/T1 (256x256x170x1)
+Conversion required 1.180954 seconds (1.134349 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4549/MPRAGE/2012-07-23_12_14_48.0
+    -> Date: 2012-07-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4549/MPRAGE/2012-07-23_12_14_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.19267:0:0.000398288 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4549_2012-07-23_AD/T1 (256x256x170x1)
+Conversion required 1.109245 seconds (1.063715 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4549/MPRAGE/2012-10-30_14_46_50.0
+    -> Date: 2012-10-30, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4549/MPRAGE/2012-10-30_14_46_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.41563:0:0.000433027 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4549_2012-10-30_AD/T1 (256x256x170x1)
+Conversion required 1.168788 seconds (1.122671 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4549/MPRAGE/2013-03-13_11_48_21.0
+    -> Date: 2013-03-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_4549/MPRAGE/2013-03-13_11_48_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.02882:0:0.000404852 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_4549_2013-03-13_AD/T1 (256x256x170x1)
+Conversion required 1.125448 seconds (1.085085 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4549/Resting_State_fMRI/2012-04-23_16_57_12.0
+    -> Date: 2012-04-23, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4549/Resting_State_fMRI/2012-04-23_16_57_12.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000564999 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4549_2012-04-23_AD/func (64x64x48x140)
+Conversion required 4.432317 seconds (3.668329 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4549/Resting_State_fMRI/2012-07-23_12_03_36.0
+    -> Date: 2012-07-23, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4549/Resting_State_fMRI/2012-07-23_12_03_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000642095 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4549_2012-07-23_AD/func (64x64x48x140)
+Conversion required 4.389904 seconds (3.639078 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4549/Resting_State_fMRI/2012-10-30_14_40_55.0
+    -> Date: 2012-10-30, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4549/Resting_State_fMRI/2012-10-30_14_40_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000956505 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4549_2012-10-30_AD/func (64x64x48x140)
+Conversion required 4.480021 seconds (3.736228 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_4549/Resting_State_fMRI/2013-03-13_11_37_03.0
+    -> Date: 2013-03-13, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_4549/Resting_State_fMRI/2013-03-13_11_37_03.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.42247:0:0.000897216 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_4549_2013-03-13_AD/func (64x64x48x140)
+Conversion required 4.308665 seconds (3.737343 for core code).
+
+
+Processing subject: 019_S_5012
+  Processing scan from: baseline_resource/ad//019_S_5012/MPRAGE/2012-11-05_08_30_31.0
+    -> Date: 2012-11-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5012/MPRAGE/2012-11-05_08_30_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.4862:0:0.000429649 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5012_2012-11-05_AD/T1 (256x256x170x1)
+Conversion required 1.103211 seconds (1.057510 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5012/MPRAGE/2013-02-05_11_26_35.0
+    -> Date: 2013-02-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5012/MPRAGE/2013-02-05_11_26_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.44567:0:0.000408027 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5012_2013-02-05_AD/T1 (256x256x170x1)
+Conversion required 1.116149 seconds (1.076537 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5012/MPRAGE/2013-05-15_12_56_19.0
+    -> Date: 2013-05-15, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5012/MPRAGE/2013-05-15_12_56_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.52625:0:0.000406005 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5012_2013-05-15_AD/T1 (256x256x170x1)
+Conversion required 1.101859 seconds (1.056004 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5012/MPRAGE/2013-12-05_13_02_22.0
+    -> Date: 2013-12-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5012/MPRAGE/2013-12-05_13_02_22.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.07277:0:0.000412511 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5012_2013-12-05_AD/T1 (256x256x170x1)
+Conversion required 1.020737 seconds (0.979766 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5012/Resting_State_fMRI/2012-11-05_08_19_18.0
+    -> Date: 2012-11-05, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5012/Resting_State_fMRI/2012-11-05_08_19_18.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.40391:0:0.00107558 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5012_2012-11-05_AD/func (64x64x48x140)
+Conversion required 4.530688 seconds (3.780315 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5012/Resting_State_fMRI/2013-02-05_11_18_36.0
+    -> Date: 2013-02-05, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5012/Resting_State_fMRI/2013-02-05_11_18_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.74701:0:0.00104071 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5012_2013-02-05_AD/func (64x64x48x140)
+Conversion required 4.315254 seconds (3.782097 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5012/Resting_State_fMRI/2013-05-15_12_56_19.0
+    -> Date: 2013-05-15, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5012/Resting_State_fMRI/2013-05-15_12_56_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00102665 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5012_2013-05-15_AD/func (64x64x48x140)
+Conversion required 4.579904 seconds (3.823036 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5012/Resting_State_fMRI/2013-12-05_13_02_22.0
+    -> Date: 2013-12-05, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5012/Resting_State_fMRI/2013-12-05_13_02_22.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.29573:0:0.000743994 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5012_2013-12-05_AD/func (64x64x48x140)
+Conversion required 4.469416 seconds (3.929091 for core code).
+
+
+Processing subject: 019_S_5019
+  Processing scan from: baseline_resource/ad//019_S_5019/MPRAGE/2012-11-07_13_50_52.0
+    -> Date: 2012-11-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5019/MPRAGE/2012-11-07_13_50_52.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.979:0:0.000457352 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5019_2012-11-07_AD/T1 (256x256x170x1)
+Conversion required 1.122070 seconds (1.076129 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5019/MPRAGE/2013-02-11_14_46_45.0
+    -> Date: 2013-02-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5019/MPRAGE/2013-02-11_14_46_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.20342:0:0.000449449 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5019_2013-02-11_AD/T1 (256x256x170x1)
+Conversion required 1.123690 seconds (1.076492 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5019/MPRAGE/2013-05-14_13_24_11.0
+    -> Date: 2013-05-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5019/MPRAGE/2013-05-14_13_24_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.24176:0:0.000447298 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5019_2013-05-14_AD/T1 (256x256x170x1)
+Conversion required 1.185850 seconds (1.138120 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5019/MPRAGE/2013-11-15_10_08_48.0
+    -> Date: 2013-11-15, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//019_S_5019/MPRAGE/2013-11-15_10_08_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.24151:0:0.000432018 (see PMC3998685)
+Convert 170 DICOM as resource//019_S_5019_2013-11-15_AD/T1 (256x256x170x1)
+Conversion required 1.071526 seconds (1.031051 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5019/Resting_State_fMRI/2012-11-07_13_45_02.0
+    -> Date: 2012-11-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5019/Resting_State_fMRI/2012-11-07_13_45_02.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.51111:0:0.00112832 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5019_2012-11-07_AD/func (64x64x48x140)
+Conversion required 4.465273 seconds (3.671849 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5019/Resting_State_fMRI/2013-02-11_14_39_50.0
+    -> Date: 2013-02-11, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5019/Resting_State_fMRI/2013-02-11_14_39_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.35897:0:0.00108848 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5019_2013-02-11_AD/func (64x64x48x140)
+Conversion required 4.291947 seconds (3.721872 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5019/Resting_State_fMRI/2013-05-14_13_24_11.0
+    -> Date: 2013-05-14, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5019/Resting_State_fMRI/2013-05-14_13_24_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.32723:0:0.000829999 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5019_2013-05-14_AD/func (64x64x48x140)
+Conversion required 4.333997 seconds (3.792406 for core code).
+
+  Processing scan from: baseline_resource/ad//019_S_5019/Resting_State_fMRI/2013-11-15_10_08_48.0
+    -> Date: 2013-11-15, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//019_S_5019/Resting_State_fMRI/2013-11-15_10_08_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.51184:0:0.000868837 (see PMC3998685)
+Convert 6720 DICOM as resource//019_S_5019_2013-11-15_AD/func (64x64x48x140)
+Conversion required 4.413142 seconds (3.869241 for core code).
+
+
+Processing subject: 022_S_6013
+  Processing scan from: baseline_resource/ad//022_S_6013/Accelerated_Sagittal_MPRAGE/2019-06-21_12_00_47.0
+    -> Date: 2019-06-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//022_S_6013/Accelerated_Sagittal_MPRAGE/2019-06-21_12_00_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//022_S_6013_2019-06-21_AD/T1 (240x256x176x1)
+Conversion required 1.511764 seconds (1.464734 for core code).
+
+  Processing scan from: baseline_resource/ad//022_S_6013/Accelerated_Sagittal_MPRAGE_ND/2017-04-26_13_37_50.0
+    -> Date: 2017-04-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//022_S_6013/Accelerated_Sagittal_MPRAGE_ND/2017-04-26_13_37_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//022_S_6013_2017-04-26_AD/T1 (240x256x176x1)
+Conversion required 1.652102 seconds (1.605120 for core code).
+
+  Processing scan from: baseline_resource/ad//022_S_6013/Axial_rsfMRI__EYES_OPEN_/2017-04-26_13_37_50.0
+    -> Date: 2017-04-26, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//022_S_6013/Axial_rsfMRI__EYES_OPEN_/2017-04-26_13_37_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//022_S_6013_2017-04-26_AD/func (64x64x48x197)
+Conversion required 5.379537 seconds (5.298257 for core code).
+
+  Processing scan from: baseline_resource/ad//022_S_6013/Axial_rsfMRI__EYES_OPEN_/2019-06-21_12_00_47.0
+    -> Date: 2019-06-21, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//022_S_6013/Axial_rsfMRI__EYES_OPEN_/2019-06-21_12_00_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//022_S_6013_2019-06-21_AD/func (64x64x48x197)
+Conversion required 5.244244 seconds (5.168023 for core code).
+
+
+Processing subject: 022_S_6796
+  Processing scan from: baseline_resource/ad//022_S_6796/Accelerated_Sagittal_MPRAGE/2019-09-03_15_16_30.0
+    -> Date: 2019-09-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//022_S_6796/Accelerated_Sagittal_MPRAGE/2019-09-03_15_16_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//022_S_6796_2019-09-03_AD/T1 (240x256x208x1)
+Conversion required 1.632290 seconds (1.578286 for core code).
+
+  Processing scan from: baseline_resource/ad//022_S_6796/Accelerated_Sagittal_MPRAGE/2021-08-24_12_59_15.0
+    -> Date: 2021-08-24, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//022_S_6796/Accelerated_Sagittal_MPRAGE/2021-08-24_12_59_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//022_S_6796_2021-08-24_AD/T1 (240x256x208x1)
+Conversion required 1.656609 seconds (1.602590 for core code).
+
+  Processing scan from: baseline_resource/ad//022_S_6796/Axial_MB_rsfMRI__Eyes_Open_/2019-09-03_15_16_30.0
+    -> Date: 2019-09-03, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//022_S_6796/Axial_MB_rsfMRI__Eyes_Open_/2019-09-03_15_16_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//022_S_6796_2019-09-03_AD/func (88x88x64x976)
+Conversion required 59.771616 seconds (59.360798 for core code).
+
+  Processing scan from: baseline_resource/ad//022_S_6796/Axial_MB_rsfMRI__Eyes_Open_/2021-08-24_12_59_15.0
+    -> Date: 2021-08-24, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//022_S_6796/Axial_MB_rsfMRI__Eyes_Open_/2021-08-24_12_59_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//022_S_6796_2021-08-24_AD/func (88x88x64x976)
+Conversion required 59.738921 seconds (59.369865 for core code).
+
+
+Processing subject: 023_S_6661
+  Processing scan from: baseline_resource/ad//023_S_6661/Accelerated_Sagittal_MPRAGE/2019-01-07_16_58_27.0
+    -> Date: 2019-01-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//023_S_6661/Accelerated_Sagittal_MPRAGE/2019-01-07_16_58_27.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//023_S_6661_2019-01-07_AD/T1 (240x256x208x1)
+Conversion required 1.831857 seconds (1.778679 for core code).
+
+  Processing scan from: baseline_resource/ad//023_S_6661/Accelerated_Sagittal_MPRAGE/2020-02-26_15_17_06.0
+    -> Date: 2020-02-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//023_S_6661/Accelerated_Sagittal_MPRAGE/2020-02-26_15_17_06.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//023_S_6661_2020-02-26_AD/T1 (240x256x208x1)
+Conversion required 1.796659 seconds (1.742010 for core code).
+
+  Processing scan from: baseline_resource/ad//023_S_6661/Accelerated_Sagittal_MPRAGE/2021-04-14_11_09_31.0
+    -> Date: 2021-04-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//023_S_6661/Accelerated_Sagittal_MPRAGE/2021-04-14_11_09_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//023_S_6661_2021-04-14_AD/T1 (240x256x208x1)
+Conversion required 1.787742 seconds (1.738241 for core code).
+
+  Processing scan from: baseline_resource/ad//023_S_6661/Axial_MB_rsfMRI__Eyes_Open_/2019-01-07_16_58_27.0
+    -> Date: 2019-01-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//023_S_6661/Axial_MB_rsfMRI__Eyes_Open_/2019-01-07_16_58_27.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Issue870: Slice timing range of first volume: range 0..515, TA= 515, TR=607 ms)
+Warning: Issue870: Slice timing range of 2nd volume: range 0..512.5, TA= 512.5, TR=607 ms)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//023_S_6661_2019-01-07_AD/func (88x88x64x976)
+Conversion required 60.789394 seconds (60.371407 for core code).
+
+  Processing scan from: baseline_resource/ad//023_S_6661/Axial_MB_rsfMRI__Eyes_Open_/2020-02-26_15_17_06.0
+    -> Date: 2020-02-26, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//023_S_6661/Axial_MB_rsfMRI__Eyes_Open_/2020-02-26_15_17_06.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//023_S_6661_2020-02-26_AD/func (88x88x64x976)
+Conversion required 59.738858 seconds (59.326256 for core code).
+
+  Processing scan from: baseline_resource/ad//023_S_6661/Axial_MB_rsfMRI__Eyes_Open_/2021-04-14_11_09_31.0
+    -> Date: 2021-04-14, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//023_S_6661/Axial_MB_rsfMRI__Eyes_Open_/2021-04-14_11_09_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 975 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 975 DICOM as resource//023_S_6661_2021-04-14_AD/func (88x88x64x975)
+Conversion required 60.042120 seconds (59.625549 for core code).
+
+
+Processing subject: 027_S_6648
+  Processing scan from: baseline_resource/ad//027_S_6648/Axial_rsfMRI__Eyes_Open_/2019-01-02_13_58_31.0
+    -> Date: 2019-01-02, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//027_S_6648/Axial_rsfMRI__Eyes_Open_/2019-01-02_13_58_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Convert 9600 DICOM as resource//027_S_6648_2019-01-02_AD/func (64x64x48x200)
+Conversion required 6.339503 seconds (4.787759 for core code).
+
+  Processing scan from: baseline_resource/ad//027_S_6648/Calibration_Scan/2019-01-02_13_58_31.0
+    -> Date: 2019-01-02, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//027_S_6648/Calibration_Scan/2019-01-02_13_58_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 128 DICOM file(s)
+Slices stacked despite coil variation 'BODY' vs '8HRBRAIN' (use '-m o' to turn off merging)
+Convert 128 DICOM as resource//027_S_6648_2019-01-02_AD/T1_c8HRBRAIN (64x64x64x2)
+Conversion required 0.102777 seconds (0.075885 for core code).
+
+
+Processing subject: 027_S_6733
+  Processing scan from: baseline_resource/ad//027_S_6733/Axial_rsfMRI__Eyes_Open_/2019-06-03_12_52_34.0
+    -> Date: 2019-06-03, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//027_S_6733/Axial_rsfMRI__Eyes_Open_/2019-06-03_12_52_34.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Convert 9600 DICOM as resource//027_S_6733_2019-06-03_AD/func (64x64x48x200)
+Conversion required 6.387302 seconds (4.847652 for core code).
+
+  Processing scan from: baseline_resource/ad//027_S_6733/Axial_rsfMRI__Eyes_Open_/2020-12-10_13_20_35.0
+    -> Date: 2020-12-10, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//027_S_6733/Axial_rsfMRI__Eyes_Open_/2020-12-10_13_20_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6794 DICOM file(s)
+DICOM images may be missing, expected 48 spatial locations per volume, but found 6794 slices.
+Slice positions repeated, but number of slices (6794) not divisible by number of repeats (141): missing images?
+Hint: expected 48 locations
+Warning: Instance Number (0020,0013) order is not spatial.
+Error: Check sorted order: 4D dataset has 1 volumes, but volume index ranges from 33280..33327
+Warning: Interslice distance varies in this volume (incompatible with NIfTI format).
+Error: Missing images. Found 6794 images, expected 48 slices per volume and instance number (0020,0013) ranges from 1 to 6768
+Convert 6794 DICOM as resource//027_S_6733_2020-12-10_AD/func (64x64x6794x1)
+Unable to equalize slice distances: slice order not consistently ascending:
+dx=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 3.4 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 6.8 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 10.2 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 13.6 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 20.4 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 23.8 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 27.2 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 30.6 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 37.4 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 40.8 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 44.2 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 47.6 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 51 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 54.4 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 57.8 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 61.2 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 64.6 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 71.4 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 74.8 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 78.2 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 81.6 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 85 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 88.4 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 91.8 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 95.2 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 98.6 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 102 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 105.4 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 108.8 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 112.2 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 115.6 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 119 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 122.4 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 125.8 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 129.2 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 132.6 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 136 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 139.4 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 142.8 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 146.2 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 149.6 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 156.4 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8 159.8]
+ Recompiling with '-DmyInstanceNumberOrderIsNotSpatial' might help.
+WARNING: dcm2niix conversion failed for directory: baseline_resource/ad//027_S_6733/Axial_rsfMRI__Eyes_Open_/2020-12-10_13_20_35.0
+  Processing scan from: baseline_resource/ad//027_S_6733/Calibration_Scan/2019-06-03_12_52_34.0
+    -> Date: 2019-06-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//027_S_6733/Calibration_Scan/2019-06-03_12_52_34.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 128 DICOM file(s)
+Slices stacked despite coil variation '8HRBRAIN' vs 'BODY' (use '-m o' to turn off merging)
+Convert 128 DICOM as resource//027_S_6733_2019-06-03_AD/T1_c8HRBRAIN (64x64x64x2)
+Conversion required 0.100568 seconds (0.073311 for core code).
+
+  Processing scan from: baseline_resource/ad//027_S_6733/Calibration_Scan/2020-12-10_13_20_35.0
+    -> Date: 2020-12-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//027_S_6733/Calibration_Scan/2020-12-10_13_20_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 128 DICOM file(s)
+Slices stacked despite coil variation '8HRBRAIN' vs 'BODY' (use '-m o' to turn off merging)
+Convert 128 DICOM as resource//027_S_6733_2020-12-10_AD/T1_c8HRBRAIN (64x64x64x2)
+Conversion required 0.094942 seconds (0.074057 for core code).
+
+
+Processing subject: 027_S_6849
+  Processing scan from: baseline_resource/ad//027_S_6849/Axial_rsfMRI__Eyes_Open_/2020-02-10_13_57_26.0
+    -> Date: 2020-02-10, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//027_S_6849/Axial_rsfMRI__Eyes_Open_/2020-02-10_13_57_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Convert 9600 DICOM as resource//027_S_6849_2020-02-10_AD/func (64x64x48x200)
+Conversion required 6.327155 seconds (4.743287 for core code).
+
+  Processing scan from: baseline_resource/ad//027_S_6849/Calibration_Scan/2020-02-10_13_57_26.0
+    -> Date: 2020-02-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//027_S_6849/Calibration_Scan/2020-02-10_13_57_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 128 DICOM file(s)
+Slices stacked despite coil variation 'BODY' vs '8HRBRAIN' (use '-m o' to turn off merging)
+Convert 128 DICOM as resource//027_S_6849_2020-02-10_AD/T1_c8HRBRAIN (64x64x64x2)
+Conversion required 0.101590 seconds (0.074159 for core code).
+
+
+Processing subject: 027_S_6965
+  Processing scan from: baseline_resource/ad//027_S_6965/Axial_rsfMRI__Eyes_Open_/2021-06-25_15_36_30.0
+    -> Date: 2021-06-25, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//027_S_6965/Axial_rsfMRI__Eyes_Open_/2021-06-25_15_36_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Convert 9600 DICOM as resource//027_S_6965_2021-06-25_AD/func (64x64x48x200)
+Conversion required 6.466248 seconds (4.926742 for core code).
+
+  Processing scan from: baseline_resource/ad//027_S_6965/Calibration_Scan/2021-06-25_15_36_30.0
+    -> Date: 2021-06-25, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//027_S_6965/Calibration_Scan/2021-06-25_15_36_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 128 DICOM file(s)
+Slices stacked despite coil variation '8HRBRAIN' vs 'BODY' (use '-m o' to turn off merging)
+Convert 128 DICOM as resource//027_S_6965_2021-06-25_AD/T1_c8HRBRAIN (64x64x64x2)
+Conversion required 0.097369 seconds (0.070220 for core code).
+
+
+Processing subject: 031_S_4024
+  Processing scan from: baseline_resource/ad//031_S_4024/MPRAGE/2011-04-22_09_29_54.0
+    -> Date: 2011-04-22, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//031_S_4024/MPRAGE/2011-04-22_09_29_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.39292:0:0.000539142 (see PMC3998685)
+Convert 170 DICOM as resource//031_S_4024_2011-04-22_AD/T1 (256x256x170x1)
+Conversion required 1.137320 seconds (1.103689 for core code).
+
+  Processing scan from: baseline_resource/ad//031_S_4024/MPRAGE/2011-07-29_13_18_48.0
+    -> Date: 2011-07-29, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//031_S_4024/MPRAGE/2011-07-29_13_18_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.0083:0:0.00049462 (see PMC3998685)
+Convert 170 DICOM as resource//031_S_4024_2011-07-29_AD/T1 (256x256x170x1)
+Conversion required 1.115384 seconds (1.075153 for core code).
+
+  Processing scan from: baseline_resource/ad//031_S_4024/MPRAGE/2011-10-28_14_00_48.0
+    -> Date: 2011-10-28, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//031_S_4024/MPRAGE/2011-10-28_14_00_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.97607:0:0.000563015 (see PMC3998685)
+Convert 170 DICOM as resource//031_S_4024_2011-10-28_AD/T1 (256x256x170x1)
+Conversion required 1.115561 seconds (1.068754 for core code).
+
+  Processing scan from: baseline_resource/ad//031_S_4024/MPRAGE/2012-04-16_14_08_46.0
+    -> Date: 2012-04-16, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//031_S_4024/MPRAGE/2012-04-16_14_08_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.0525:0:0.000529236 (see PMC3998685)
+Convert 170 DICOM as resource//031_S_4024_2012-04-16_AD/T1 (256x256x170x1)
+Conversion required 1.026205 seconds (0.986144 for core code).
+
+  Processing scan from: baseline_resource/ad//031_S_4024/Resting_State_fMRI/2011-04-22_08_58_43.0
+    -> Date: 2011-04-22, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//031_S_4024/Resting_State_fMRI/2011-04-22_08_58_43.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.48107:0:0.000840761 (see PMC3998685)
+Convert 6720 DICOM as resource//031_S_4024_2011-04-22_AD/func (64x64x48x140)
+Conversion required 4.595979 seconds (3.841153 for core code).
+
+  Processing scan from: baseline_resource/ad//031_S_4024/Resting_State_fMRI/2011-07-29_13_09_04.0
+    -> Date: 2011-07-29, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//031_S_4024/Resting_State_fMRI/2011-07-29_13_09_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.75116:0:0.000892937 (see PMC3998685)
+Convert 6720 DICOM as resource//031_S_4024_2011-07-29_AD/func (64x64x48x140)
+Conversion required 4.644344 seconds (3.888190 for core code).
+
+  Processing scan from: baseline_resource/ad//031_S_4024/Resting_State_fMRI/2011-10-28_13_51_28.0
+    -> Date: 2011-10-28, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//031_S_4024/Resting_State_fMRI/2011-10-28_13_51_28.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.41245:0:0.00101485 (see PMC3998685)
+Convert 6720 DICOM as resource//031_S_4024_2011-10-28_AD/func (64x64x48x140)
+Conversion required 4.855975 seconds (4.104470 for core code).
+
+  Processing scan from: baseline_resource/ad//031_S_4024/Resting_State_fMRI/2012-04-16_13_56_13.0
+    -> Date: 2012-04-16, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//031_S_4024/Resting_State_fMRI/2012-04-16_13_56_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.31062:0:0.000837862 (see PMC3998685)
+Convert 6720 DICOM as resource//031_S_4024_2012-04-16_AD/func (64x64x48x140)
+Conversion required 4.924110 seconds (4.140991 for core code).
+
+
+Processing subject: 032_S_6600
+  Processing scan from: baseline_resource/ad//032_S_6600/Accelerated_Sagittal_MPRAGE/2018-10-19_07_41_54.0
+    -> Date: 2018-10-19, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//032_S_6600/Accelerated_Sagittal_MPRAGE/2018-10-19_07_41_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//032_S_6600_2018-10-19_AD/T1 (240x256x208x1)
+Conversion required 1.870253 seconds (1.815528 for core code).
+
+  Processing scan from: baseline_resource/ad//032_S_6600/Accelerated_Sagittal_MPRAGE/2019-11-21_13_55_35.0
+    -> Date: 2019-11-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//032_S_6600/Accelerated_Sagittal_MPRAGE/2019-11-21_13_55_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//032_S_6600_2019-11-21_AD/T1 (240x256x208x1)
+Conversion required 1.919826 seconds (1.863578 for core code).
+
+  Processing scan from: baseline_resource/ad//032_S_6600/Axial_rsfMRI__Eyes_Open_/2018-10-19_07_41_54.0
+    -> Date: 2018-10-19, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//032_S_6600/Axial_rsfMRI__Eyes_Open_/2018-10-19_07_41_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//032_S_6600_2018-10-19_AD/func (64x64x48x197)
+Conversion required 5.113952 seconds (5.064136 for core code).
+
+  Processing scan from: baseline_resource/ad//032_S_6600/Axial_rsfMRI__Eyes_Open_/2019-11-21_13_55_35.0
+    -> Date: 2019-11-21, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//032_S_6600/Axial_rsfMRI__Eyes_Open_/2019-11-21_13_55_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//032_S_6600_2019-11-21_AD/func (64x64x48x197)
+Conversion required 5.047569 seconds (4.998123 for core code).
+
+
+Processing subject: 032_S_6602
+  Processing scan from: baseline_resource/ad//032_S_6602/Accelerated_Sagittal_MPRAGE/2018-10-11_07_48_11.0
+    -> Date: 2018-10-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//032_S_6602/Accelerated_Sagittal_MPRAGE/2018-10-11_07_48_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//032_S_6602_2018-10-11_AD/T1 (240x256x208x1)
+Conversion required 1.880798 seconds (1.725691 for core code).
+
+  Processing scan from: baseline_resource/ad//032_S_6602/Accelerated_Sagittal_MPRAGE/2019-11-07_10_58_58.0
+    -> Date: 2019-11-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//032_S_6602/Accelerated_Sagittal_MPRAGE/2019-11-07_10_58_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//032_S_6602_2019-11-07_AD/T1 (240x256x208x1)
+Conversion required 1.853051 seconds (1.716381 for core code).
+
+  Processing scan from: baseline_resource/ad//032_S_6602/Axial_rsfMRI__Eyes_Open_/2018-10-11_07_48_11.0
+    -> Date: 2018-10-11, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//032_S_6602/Axial_rsfMRI__Eyes_Open_/2018-10-11_07_48_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//032_S_6602_2018-10-11_AD/func (64x64x48x197)
+Conversion required 4.913768 seconds (4.870441 for core code).
+
+  Processing scan from: baseline_resource/ad//032_S_6602/Axial_rsfMRI__Eyes_Open_/2019-11-07_10_58_58.0
+    -> Date: 2019-11-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//032_S_6602/Axial_rsfMRI__Eyes_Open_/2019-11-07_10_58_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//032_S_6602_2019-11-07_AD/func (64x64x48x197)
+Conversion required 4.919188 seconds (4.869379 for core code).
+
+
+Processing subject: 032_S_6855
+  Processing scan from: baseline_resource/ad//032_S_6855/Accelerated_Sagittal_MPRAGE/2020-02-24_10_20_00.0
+    -> Date: 2020-02-24, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//032_S_6855/Accelerated_Sagittal_MPRAGE/2020-02-24_10_20_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//032_S_6855_2020-02-24_AD/T1 (240x256x208x1)
+Conversion required 1.812677 seconds (1.758500 for core code).
+
+  Processing scan from: baseline_resource/ad//032_S_6855/Axial_rsfMRI__Eyes_Open_/2020-02-24_10_20_00.0
+    -> Date: 2020-02-24, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//032_S_6855/Axial_rsfMRI__Eyes_Open_/2020-02-24_10_20_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//032_S_6855_2020-02-24_AD/func (64x64x48x197)
+Conversion required 4.844677 seconds (4.795899 for core code).
+
+
+Processing subject: 035_S_6650
+  Processing scan from: baseline_resource/ad//035_S_6650/Accelerated_Sagittal_MPRAGE/2018-12-14_14_48_04.0
+    -> Date: 2018-12-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//035_S_6650/Accelerated_Sagittal_MPRAGE/2018-12-14_14_48_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//035_S_6650_2018-12-14_AD/T1 (240x256x208x1)
+Conversion required 1.841822 seconds (1.787764 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_6650/Axial_rsfMRI__Eyes_Open_/2018-12-14_14_48_04.0
+    -> Date: 2018-12-14, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//035_S_6650/Axial_rsfMRI__Eyes_Open_/2018-12-14_14_48_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//035_S_6650_2018-12-14_AD/func (64x64x48x197)
+Conversion required 5.176997 seconds (5.099770 for core code).
+
+
+Processing subject: 035_S_6660
+  Processing scan from: baseline_resource/ad//035_S_6660/Accelerated_Sagittal_MPRAGE/2019-02-04_07_46_21.0
+    -> Date: 2019-02-04, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//035_S_6660/Accelerated_Sagittal_MPRAGE/2019-02-04_07_46_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//035_S_6660_2019-02-04_AD/T1 (240x256x208x1)
+Conversion required 1.851122 seconds (1.796235 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_6660/Axial_rsfMRI__Eyes_Open_/2019-02-04_07_46_21.0
+    -> Date: 2019-02-04, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//035_S_6660/Axial_rsfMRI__Eyes_Open_/2019-02-04_07_46_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//035_S_6660_2019-02-04_AD/func (64x64x48x197)
+Conversion required 5.318209 seconds (5.237757 for core code).
+
+
+Processing subject: 035_S_6927
+  Processing scan from: baseline_resource/ad//035_S_6927/Accelerated_Sagittal_MPRAGE__MSV21_/2024-12-09_15_24_37.0
+    -> Date: 2024-12-09, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//035_S_6927/Accelerated_Sagittal_MPRAGE__MSV21_/2024-12-09_15_24_37.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//035_S_6927_2024-12-09_AD/T1 (240x256x208x1)
+Conversion required 1.902406 seconds (1.854789 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_6927/Accelerated_Sagittal_MPRAGE_Phase_A-P/2022-07-13_12_42_26.0
+    -> Date: 2022-07-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//035_S_6927/Accelerated_Sagittal_MPRAGE_Phase_A-P/2022-07-13_12_42_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//035_S_6927_2022-07-13_AD/T1 (240x256x208x1)
+Conversion required 1.855296 seconds (1.801432 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_6927/Accelerated_Sagittal_MPRAGE_Phase_A-P/2023-07-05_12_49_23.0
+    -> Date: 2023-07-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//035_S_6927/Accelerated_Sagittal_MPRAGE_Phase_A-P/2023-07-05_12_49_23.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//035_S_6927_2023-07-05_AD/T1 (240x256x208x1)
+Conversion required 1.744795 seconds (1.690548 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_6927/Axial_MB_rsfMRI__Eyes_Open___MSV21_/2024-12-09_16_01_53.0
+    -> Date: 2024-12-09, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//035_S_6927/Axial_MB_rsfMRI__Eyes_Open___MSV21_/2024-12-09_16_01_53.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 482 DICOM file(s)
+Warning: Issue870: Slice timing range of first volume: range 0..512.5, TA= 512.5, TR=607 ms)
+Warning: Issue870: Slice timing range of 2nd volume: range 0..515, TA= 515, TR=607 ms)
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 482 DICOM as resource//035_S_6927_2024-12-09_AD/func (88x88x64x482)
+Conversion required 32.860212 seconds (32.645191 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_6927/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2022-07-13_12_42_26.0
+    -> Date: 2022-07-13, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//035_S_6927/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2022-07-13_12_42_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//035_S_6927_2022-07-13_AD/func (64x64x48x197)
+Conversion required 5.176140 seconds (5.099307 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_6927/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2023-07-05_13_16_58.0
+    -> Date: 2023-07-05, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//035_S_6927/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2023-07-05_13_16_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//035_S_6927_2023-07-05_AD/func (64x64x48x197)
+Conversion required 5.270577 seconds (5.192175 for core code).
+
+
+Processing subject: 035_S_7001
+  Processing scan from: baseline_resource/ad//035_S_7001/Accelerated_Sagittal_MPRAGE_Phase_A-P/2021-10-21_13_59_50.0
+    -> Date: 2021-10-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//035_S_7001/Accelerated_Sagittal_MPRAGE_Phase_A-P/2021-10-21_13_59_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//035_S_7001_2021-10-21_AD/T1 (240x256x208x1)
+Conversion required 1.793156 seconds (1.738082 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_7001/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2021-10-21_13_59_50.0
+    -> Date: 2021-10-21, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//035_S_7001/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2021-10-21_13_59_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//035_S_7001_2021-10-21_AD/func (64x64x48x197)
+Conversion required 4.852184 seconds (4.776201 for core code).
+
+
+Processing subject: 035_S_7120
+  Processing scan from: baseline_resource/ad//035_S_7120/Accelerated_Sagittal_MPRAGE_Phase_A-P/2023-02-08_12_42_18.0
+    -> Date: 2023-02-08, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//035_S_7120/Accelerated_Sagittal_MPRAGE_Phase_A-P/2023-02-08_12_42_18.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//035_S_7120_2023-02-08_AD/T1 (240x256x208x1)
+Conversion required 1.823253 seconds (1.767668 for core code).
+
+  Processing scan from: baseline_resource/ad//035_S_7120/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2023-02-08_12_42_18.0
+    -> Date: 2023-02-08, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//035_S_7120/Axial_rsfMRI__Eyes_Open__-phase_P_to_A/2023-02-08_12_42_18.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//035_S_7120_2023-02-08_AD/func (64x64x48x197)
+Conversion required 5.016258 seconds (4.943747 for core code).
+
+
+Processing subject: 036_S_6179
+  Processing scan from: baseline_resource/ad//036_S_6179/Accelerated_Sagittal_MPRAGE/2018-01-23_13_44_35.0
+    -> Date: 2018-01-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//036_S_6179/Accelerated_Sagittal_MPRAGE/2018-01-23_13_44_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//036_S_6179_2018-01-23_AD/T1 (240x256x176x1)
+Conversion required 1.509661 seconds (1.462179 for core code).
+
+  Processing scan from: baseline_resource/ad//036_S_6179/Accelerated_Sagittal_MPRAGE/2019-05-07_13_35_16.0
+    -> Date: 2019-05-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//036_S_6179/Accelerated_Sagittal_MPRAGE/2019-05-07_13_35_16.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//036_S_6179_2019-05-07_AD/T1 (240x256x208x1)
+Conversion required 1.859954 seconds (1.804864 for core code).
+
+  Processing scan from: baseline_resource/ad//036_S_6179/Accelerated_Sagittal_MPRAGE/2020-09-01_10_52_19.0
+    -> Date: 2020-09-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//036_S_6179/Accelerated_Sagittal_MPRAGE/2020-09-01_10_52_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//036_S_6179_2020-09-01_AD/T1 (240x256x208x1)
+Conversion required 1.824868 seconds (1.770217 for core code).
+
+  Processing scan from: baseline_resource/ad//036_S_6179/Axial_MB_rsfMRI__Eyes_Open_/2019-05-07_13_35_16.0
+    -> Date: 2019-05-07, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//036_S_6179/Axial_MB_rsfMRI__Eyes_Open_/2019-05-07_13_35_16.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 750 DICOM file(s)
+Convert 750 DICOM as resource//036_S_6179_2019-05-07_AD/func (88x88x64x750)
+Conversion required 47.007983 seconds (46.712608 for core code).
+
+  Processing scan from: baseline_resource/ad//036_S_6179/Axial_MB_rsfMRI__Eyes_Open_/2020-09-01_10_52_19.0
+    -> Date: 2020-09-01, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//036_S_6179/Axial_MB_rsfMRI__Eyes_Open_/2020-09-01_10_52_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 750 DICOM file(s)
+Warning: Issue870: Slice timing range of first volume: range 0..672.5, TA= 672.5, TR=788 ms)
+Warning: Issue870: Slice timing range of 2nd volume: range 0..670, TA= 670, TR=788 ms)
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 750 DICOM as resource//036_S_6179_2020-09-01_AD/func (88x88x64x750)
+Conversion required 46.200261 seconds (45.883839 for core code).
+
+  Processing scan from: baseline_resource/ad//036_S_6179/Axial_rsfMRI__Eyes_Open_/2018-01-23_13_44_35.0
+    -> Date: 2018-01-23, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//036_S_6179/Axial_rsfMRI__Eyes_Open_/2018-01-23_13_44_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9456 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Convert 9456 DICOM as resource//036_S_6179_2018-01-23_AD/func (64x64x48x197)
+Conversion required 8.215777 seconds (6.043054 for core code).
+
+
+Processing subject: 037_S_6216
+  Processing scan from: baseline_resource/ad//037_S_6216/Accelerated_Sagittal_MPRAGE/2018-05-03_09_15_30.0
+    -> Date: 2018-05-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//037_S_6216/Accelerated_Sagittal_MPRAGE/2018-05-03_09_15_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//037_S_6216_2018-05-03_AD/T1 (240x256x208x1)
+Conversion required 1.675638 seconds (1.620072 for core code).
+
+  Processing scan from: baseline_resource/ad//037_S_6216/Axial_MB_rsfMRI__Eyes_Open_/2018-05-03_09_15_30.0
+    -> Date: 2018-05-03, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//037_S_6216/Axial_MB_rsfMRI__Eyes_Open_/2018-05-03_09_15_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//037_S_6216_2018-05-03_AD/func (88x88x64x976)
+Conversion required 59.232676 seconds (58.647285 for core code).
+
+
+Processing subject: 037_S_6230
+  Processing scan from: baseline_resource/ad//037_S_6230/Accelerated_Sagittal_MPRAGE/2018-06-01_13_16_19.0
+    -> Date: 2018-06-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//037_S_6230/Accelerated_Sagittal_MPRAGE/2018-06-01_13_16_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//037_S_6230_2018-06-01_AD/T1 (240x256x208x1)
+Conversion required 1.690423 seconds (1.634429 for core code).
+
+  Processing scan from: baseline_resource/ad//037_S_6230/Axial_MB_rsfMRI__Eyes_Open_/2018-06-01_13_16_19.0
+    -> Date: 2018-06-01, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//037_S_6230/Axial_MB_rsfMRI__Eyes_Open_/2018-06-01_13_16_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 733 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 733 DICOM as resource//037_S_6230_2018-06-01_AD/func (88x88x64x733)
+Conversion required 44.218732 seconds (43.876568 for core code).
+
+
+Processing subject: 037_S_6377
+  Processing scan from: baseline_resource/ad//037_S_6377/Accelerated_Sagittal_MPRAGE/2018-07-06_13_04_55.0
+    -> Date: 2018-07-06, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//037_S_6377/Accelerated_Sagittal_MPRAGE/2018-07-06_13_04_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//037_S_6377_2018-07-06_AD/T1 (240x256x208x1)
+Conversion required 1.747683 seconds (1.691033 for core code).
+
+  Processing scan from: baseline_resource/ad//037_S_6377/Accelerated_Sagittal_MPRAGE/2019-08-08_12_30_23.0
+    -> Date: 2019-08-08, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//037_S_6377/Accelerated_Sagittal_MPRAGE/2019-08-08_12_30_23.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//037_S_6377_2019-08-08_AD/T1 (240x256x208x1)
+Conversion required 1.778102 seconds (1.723211 for core code).
+
+  Processing scan from: baseline_resource/ad//037_S_6377/Accelerated_Sagittal_MPRAGE/2020-09-22_12_07_15.0
+    -> Date: 2020-09-22, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//037_S_6377/Accelerated_Sagittal_MPRAGE/2020-09-22_12_07_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//037_S_6377_2020-09-22_AD/T1 (240x256x208x1)
+Conversion required 1.777630 seconds (1.722806 for core code).
+
+  Processing scan from: baseline_resource/ad//037_S_6377/Axial_MB_rsfMRI__Eyes_Open_/2018-07-06_13_04_55.0
+    -> Date: 2018-07-06, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//037_S_6377/Axial_MB_rsfMRI__Eyes_Open_/2018-07-06_13_04_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Issue870: Slice timing range of first volume: range 0..515, TA= 515, TR=607 ms)
+Warning: Issue870: Slice timing range of 2nd volume: range 0..512.5, TA= 512.5, TR=607 ms)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//037_S_6377_2018-07-06_AD/func (88x88x64x976)
+Conversion required 59.201184 seconds (58.598103 for core code).
+
+  Processing scan from: baseline_resource/ad//037_S_6377/Axial_MB_rsfMRI__Eyes_Open_/2019-08-08_12_30_23.0
+    -> Date: 2019-08-08, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//037_S_6377/Axial_MB_rsfMRI__Eyes_Open_/2019-08-08_12_30_23.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Issue870: Slice timing range of first volume: range 0..512.5, TA= 512.5, TR=607 ms)
+Warning: Issue870: Slice timing range of 2nd volume: range 0..515, TA= 515, TR=607 ms)
+Convert 976 DICOM as resource//037_S_6377_2019-08-08_AD/func (88x88x64x976)
+Conversion required 61.384494 seconds (60.876347 for core code).
+
+  Processing scan from: baseline_resource/ad//037_S_6377/Axial_MB_rsfMRI__Eyes_Open_/2020-09-22_12_07_15.0
+    -> Date: 2020-09-22, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//037_S_6377/Axial_MB_rsfMRI__Eyes_Open_/2020-09-22_12_07_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//037_S_6377_2020-09-22_AD/func (88x88x64x976)
+Conversion required 61.635331 seconds (61.126286 for core code).
+
+
+Processing subject: 052_S_6305
+  Processing scan from: baseline_resource/ad//052_S_6305/Accelerated_Sagittal_MPRAGE/2018-05-04_13_14_47.0
+    -> Date: 2018-05-04, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//052_S_6305/Accelerated_Sagittal_MPRAGE/2018-05-04_13_14_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//052_S_6305_2018-05-04_AD/T1 (240x256x208x1)
+Conversion required 1.698824 seconds (1.645206 for core code).
+
+  Processing scan from: baseline_resource/ad//052_S_6305/Axial_MB_rsfMRI__Eyes_Open_/2018-05-04_13_14_47.0
+    -> Date: 2018-05-04, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//052_S_6305/Axial_MB_rsfMRI__Eyes_Open_/2018-05-04_13_14_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 976 DICOM as resource//052_S_6305_2018-05-04_AD/func (88x88x64x976)
+Conversion required 61.347378 seconds (60.725204 for core code).
+
+
+Processing subject: 053_S_5070
+  Processing scan from: baseline_resource/ad//053_S_5070/MPRAGE/2013-01-31_15_45_24.0
+    -> Date: 2013-01-31, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//053_S_5070/MPRAGE/2013-01-31_15_45_24.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.90061:0:0.00048189 (see PMC3998685)
+Convert 170 DICOM as resource//053_S_5070_2013-01-31_AD/T1 (256x256x170x1)
+Conversion required 0.984341 seconds (0.941780 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5070/MPRAGE/2013-05-13_16_20_21.0
+    -> Date: 2013-05-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//053_S_5070/MPRAGE/2013-05-13_16_20_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.53651:0:0.000440789 (see PMC3998685)
+Convert 170 DICOM as resource//053_S_5070_2013-05-13_AD/T1 (256x256x170x1)
+Conversion required 0.845187 seconds (0.799639 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5070/MPRAGE/2013-09-10_14_58_36.0
+    -> Date: 2013-09-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//053_S_5070/MPRAGE/2013-09-10_14_58_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.6315:0:0.000454634 (see PMC3998685)
+Convert 170 DICOM as resource//053_S_5070_2013-09-10_AD/T1 (256x256x170x1)
+Conversion required 1.055856 seconds (1.010541 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5070/MPRAGE/2014-02-21_12_00_36.0
+    -> Date: 2014-02-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//053_S_5070/MPRAGE/2014-02-21_12_00_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.43346:0:0.000483321 (see PMC3998685)
+Convert 170 DICOM as resource//053_S_5070_2014-02-21_AD/T1 (256x256x170x1)
+Conversion required 1.013773 seconds (0.969047 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5070/Resting_State_fMRI/2013-01-31_15_35_22.0
+    -> Date: 2013-01-31, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//053_S_5070/Resting_State_fMRI/2013-01-31_15_35_22.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.66374:0:0.000846378 (see PMC3998685)
+Convert 6720 DICOM as resource//053_S_5070_2013-01-31_AD/func (64x64x48x140)
+Conversion required 4.607369 seconds (3.857300 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5070/Resting_State_fMRI/2013-05-13_16_20_21.0
+    -> Date: 2013-05-13, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//053_S_5070/Resting_State_fMRI/2013-05-13_16_20_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.64811:0:0.000782306 (see PMC3998685)
+Convert 6720 DICOM as resource//053_S_5070_2013-05-13_AD/func (64x64x48x140)
+Conversion required 4.557583 seconds (3.788628 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5070/Resting_State_fMRI/2013-09-10_14_58_36.0
+    -> Date: 2013-09-10, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//053_S_5070/Resting_State_fMRI/2013-09-10_14_58_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.72845:0:0.000862177 (see PMC3998685)
+Convert 6720 DICOM as resource//053_S_5070_2013-09-10_AD/func (64x64x48x140)
+Conversion required 4.511116 seconds (3.755274 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5070/Resting_State_fMRI/2014-02-21_12_00_36.0
+    -> Date: 2014-02-21, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//053_S_5070/Resting_State_fMRI/2014-02-21_12_00_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.71697:0:0.000848847 (see PMC3998685)
+Convert 6720 DICOM as resource//053_S_5070_2014-02-21_AD/func (64x64x48x140)
+Conversion required 4.472013 seconds (3.721954 for core code).
+
+
+Processing subject: 053_S_5208
+  Processing scan from: baseline_resource/ad//053_S_5208/MPRAGE/2013-06-17_16_08_00.0
+    -> Date: 2013-06-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/ad//053_S_5208/MPRAGE/2013-06-17_16_08_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.27546:0:0.000452141 (see PMC3998685)
+Convert 170 DICOM as resource//053_S_5208_2013-06-17_AD/T1 (256x256x170x1)
+Conversion required 1.192188 seconds (1.147352 for core code).
+
+  Processing scan from: baseline_resource/ad//053_S_5208/Resting_State_fMRI/2013-06-17_16_08_00.0
+    -> Date: 2013-06-17, Scan Type: func
+    No NIfTI file found in baseline_resource/ad//053_S_5208/Resting_State_fMRI/2013-06-17_16_08_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000715613 (see PMC3998685)
+Convert 6720 DICOM as resource//053_S_5208_2013-06-17_AD/func (64x64x48x140)
+Conversion required 4.527259 seconds (3.777348 for core code).
+
+
+Script completed. Some operations may have failed - check warnings above.
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ 
+
+

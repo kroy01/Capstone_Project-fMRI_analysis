@@ -6,8 +6,6 @@ output/
 output_v1/
 output_v2/
 output_mri/
-logs/
-resources/
 
 preprocessing_output.zip
 mri_high_quality_MCI.zip
