@@ -1,0 +1,1995 @@
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ ./scripts/resource_format.sh baseline_resource/emci/ resource/ EMCI
+Processing subjects from: baseline_resource/emci/
+Output will be stored in: resource/
+Label used: EMCI
+-------------------------------------------------------
+Processing subject: 002_S_2010
+  Processing scan from: baseline_resource/emci//002_S_2010/Extended_Resting_State_fMRI/2015-08-13_07_57_55.0
+    -> Date: 2015-08-13, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2010/Extended_Resting_State_fMRI/2015-08-13_07_57_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+
+
+
+
+
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.37705:0:0.000736251 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_2010_2015-08-13_EMCI/func (64x64x48x200)
+Conversion required 7.232437 seconds (5.721139 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/MPRAGE/2010-06-24_14_21_28.0
+    -> Date: 2010-06-24, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2010/MPRAGE/2010-06-24_14_21_28.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.71453:0:0.000387762 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2010_2010-06-24_EMCI/T1 (256x256x170x1)
+Conversion required 1.023318 seconds (0.958661 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/MPRAGE/2010-10-22_15_34_13.0
+    -> Date: 2010-10-22, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2010/MPRAGE/2010-10-22_15_34_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.21978:0:0.000412181 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2010_2010-10-22_EMCI/T1 (256x256x170x1)
+Conversion required 0.973948 seconds (0.905182 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/MPRAGE/2011-01-22_12_44_25.0
+    -> Date: 2011-01-22, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2010/MPRAGE/2011-01-22_12_44_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.20464:0:0.000481944 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2010_2011-01-22_EMCI/T1 (256x256x170x1)
+Conversion required 1.133584 seconds (1.062409 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/MPRAGE/2011-07-07_13_45_06.0
+    -> Date: 2011-07-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2010/MPRAGE/2011-07-07_13_45_06.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 2.41636:0:0.000461334 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2010_2011-07-07_EMCI/T1 (256x256x170x1)
+Conversion required 1.056555 seconds (0.986321 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/MPRAGE/2012-07-11_16_58_40.0
+    -> Date: 2012-07-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2010/MPRAGE/2012-07-11_16_58_40.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.31209:0:0.000317294 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2010_2012-07-11_EMCI/T1 (256x256x170x1)
+Conversion required 0.975122 seconds (0.909097 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/MPRAGE/2013-07-18_08_47_45.0
+    -> Date: 2013-07-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2010/MPRAGE/2013-07-18_08_47_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.85983:0:0.000348891 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2010_2013-07-18_EMCI/T1 (256x256x170x1)
+Conversion required 1.003379 seconds (0.938735 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/MPRAGE/2015-08-13_07_57_55.0
+    -> Date: 2015-08-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2010/MPRAGE/2015-08-13_07_57_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.19463:0:0.000369377 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2010_2015-08-13_EMCI/T1 (256x256x170x1)
+Conversion required 1.011889 seconds (0.941731 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/Resting_State_fMRI/2010-06-24_14_21_28.0
+    -> Date: 2010-06-24, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2010/Resting_State_fMRI/2010-06-24_14_21_28.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 5040 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.263:0:0.00042822 (see PMC3998685)
+Convert 5040 DICOM as resource//002_S_2010_2010-06-24_EMCI/func (64x64x36x140)
+Conversion required 3.842870 seconds (3.051257 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/Resting_State_fMRI/2010-10-22_15_31_21.0
+    -> Date: 2010-10-22, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2010/Resting_State_fMRI/2010-10-22_15_31_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 5040 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.74628:0:0.000485013 (see PMC3998685)
+Convert 5040 DICOM as resource//002_S_2010_2010-10-22_EMCI/func (64x64x36x140)
+Conversion required 3.918888 seconds (3.070932 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/Resting_State_fMRI/2011-01-22_12_31_55.0
+    -> Date: 2011-01-22, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2010/Resting_State_fMRI/2011-01-22_12_31_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 5040 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000651444 (see PMC3998685)
+Convert 5040 DICOM as resource//002_S_2010_2011-01-22_EMCI/func (64x64x36x140)
+Conversion required 3.724728 seconds (2.925762 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/Resting_State_fMRI/2011-07-07_13_33_07.0
+    -> Date: 2011-07-07, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2010/Resting_State_fMRI/2011-07-07_13_33_07.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3s) and estimated (6.02158s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.2757:0:0.000545263 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2010_2011-07-07_EMCI/func (64x64x48x140)
+Conversion required 5.203039 seconds (4.136107 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/Resting_State_fMRI/2012-07-11_16_41_06.0
+    -> Date: 2012-07-11, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2010/Resting_State_fMRI/2012-07-11_16_41_06.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.7558:0:0.000722463 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2010_2012-07-11_EMCI/func (64x64x48x140)
+Conversion required 5.101907 seconds (3.986536 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2010/Resting_State_fMRI/2013-07-18_08_47_45.0
+    -> Date: 2013-07-18, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2010/Resting_State_fMRI/2013-07-18_08_47_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.27057:0:0.000580553 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2010_2013-07-18_EMCI/func (64x64x48x140)
+Conversion required 4.904286 seconds (3.853377 for core code).
+
+
+Processing subject: 002_S_2043
+  Processing scan from: baseline_resource/emci//002_S_2043/MPRAGE/2010-08-31_08_32_29.0
+    -> Date: 2010-08-31, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2043/MPRAGE/2010-08-31_08_32_29.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.16361:0:0.000480167 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2043_2010-08-31_EMCI/T1 (256x256x170x1)
+Conversion required 1.073801 seconds (1.002964 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2043/MPRAGE/2010-12-08_11_34_57.0
+    -> Date: 2010-12-08, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2043/MPRAGE/2010-12-08_11_34_57.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.69377:0:0.000439009 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2043_2010-12-08_EMCI/T1 (256x256x170x1)
+Conversion required 1.063379 seconds (0.992817 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2043/MPRAGE/2011-09-16_17_23_01.0
+    -> Date: 2011-09-16, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2043/MPRAGE/2011-09-16_17_23_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.69182:0:0.000435077 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2043_2011-09-16_EMCI/T1 (256x256x170x1)
+Conversion required 0.959800 seconds (0.889864 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2043/Resting_State_fMRI/2010-08-31_08_25_45.0
+    -> Date: 2010-08-31, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2043/Resting_State_fMRI/2010-08-31_08_25_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 5040 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000678566 (see PMC3998685)
+Convert 5040 DICOM as resource//002_S_2043_2010-08-31_EMCI/func (64x64x36x140)
+Conversion required 3.621225 seconds (2.831171 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2043/Resting_State_fMRI/2010-12-08_11_31_20.0
+    -> Date: 2010-12-08, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2043/Resting_State_fMRI/2010-12-08_11_31_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 5040 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000704286 (see PMC3998685)
+Convert 5040 DICOM as resource//002_S_2043_2010-12-08_EMCI/func (64x64x36x140)
+Conversion required 3.661903 seconds (2.862896 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2043/Resting_State_fMRI/2011-09-16_17_12_05.0
+    -> Date: 2011-09-16, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2043/Resting_State_fMRI/2011-09-16_17_12_05.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3s) and estimated (6.02158s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000702721 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2043_2011-09-16_EMCI/func (64x64x48x140)
+Conversion required 4.915237 seconds (3.852430 for core code).
+
+
+Processing subject: 002_S_2073
+  Processing scan from: baseline_resource/emci//002_S_2073/Extended_Resting_State_fMRI/2014-09-17_14_33_48.0
+    -> Date: 2014-09-17, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Extended_Resting_State_fMRI/2014-09-17_14_33_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000657478 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_2073_2014-09-17_EMCI/func (64x64x48x200)
+Conversion required 6.929217 seconds (5.426840 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/Extended_Resting_State_fMRI/2016-10-03_06_58_19.0
+    -> Date: 2016-10-03, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Extended_Resting_State_fMRI/2016-10-03_06_58_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000549978 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_2073_2016-10-03_EMCI/func (64x64x48x200)
+Conversion required 7.117710 seconds (5.600323 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2010-09-07_07_21_22.0
+    -> Date: 2010-09-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2010-09-07_07_21_22.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.38339:0:0.000390106 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2010-09-07_EMCI/T1 (256x256x170x1)
+Conversion required 0.979004 seconds (0.907893 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2010-12-06_14_22_55.0
+    -> Date: 2010-12-06, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2010-12-06_14_22_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.51575:0:0.000422612 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2010-12-06_EMCI/T1 (256x256x170x1)
+Conversion required 1.072360 seconds (1.000894 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2011-03-09_07_16_22.0
+    -> Date: 2011-03-09, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2011-03-09_07_16_22.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.50256:0:0.000388328 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2011-03-09_EMCI/T1 (256x256x170x1)
+Conversion required 0.961335 seconds (0.890963 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2011-09-22_07_28_30.0
+    -> Date: 2011-09-22, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2011-09-22_07_28_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.58437:0:0.00044434 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2011-09-22_EMCI/T1 (256x256x170x1)
+Conversion required 0.917887 seconds (0.850177 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2012-09-11_07_14_44.0
+    -> Date: 2012-09-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2012-09-11_07_14_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.70452:0:0.00030621 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2012-09-11_EMCI/T1 (256x256x170x1)
+Conversion required 0.845669 seconds (0.775945 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2013-10-01_07_09_31.0
+    -> Date: 2013-10-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2013-10-01_07_09_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.92454:0:0.000371048 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2013-10-01_EMCI/T1 (256x256x170x1)
+Conversion required 0.790790 seconds (0.721607 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2014-09-17_14_33_48.0
+    -> Date: 2014-09-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2014-09-17_14_33_48.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.73089:0:0.000362472 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2014-09-17_EMCI/T1 (256x256x170x1)
+Conversion required 0.767265 seconds (0.697254 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/MPRAGE/2016-10-03_06_58_19.0
+    -> Date: 2016-10-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_2073/MPRAGE/2016-10-03_06_58_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.55604:0:0.000343435 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_2073_2016-10-03_EMCI/T1 (256x256x170x1)
+Conversion required 0.811224 seconds (0.741041 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/Resting_State_fMRI/2010-09-07_07_11_14.0
+    -> Date: 2010-09-07, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Resting_State_fMRI/2010-09-07_07_11_14.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 5040 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00069279 (see PMC3998685)
+Convert 5040 DICOM as resource//002_S_2073_2010-09-07_EMCI/func (64x64x36x140)
+Conversion required 3.536704 seconds (2.753675 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/Resting_State_fMRI/2010-12-06_14_18_46.0
+    -> Date: 2010-12-06, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Resting_State_fMRI/2010-12-06_14_18_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 5040 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000732422 (see PMC3998685)
+Convert 5040 DICOM as resource//002_S_2073_2010-12-06_EMCI/func (64x64x36x140)
+Conversion required 3.581925 seconds (2.783764 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/Resting_State_fMRI/2011-03-09_07_11_33.0
+    -> Date: 2011-03-09, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Resting_State_fMRI/2011-03-09_07_11_33.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000645339 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2073_2011-03-09_EMCI/func (64x64x48x140)
+Conversion required 4.936990 seconds (3.814880 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/Resting_State_fMRI/2011-09-22_07_25_55.0
+    -> Date: 2011-09-22, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Resting_State_fMRI/2011-09-22_07_25_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3s) and estimated (6.02158s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000946614 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2073_2011-09-22_EMCI/func (64x64x48x140)
+Conversion required 4.953231 seconds (3.755539 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/Resting_State_fMRI/2012-09-11_07_02_16.0
+    -> Date: 2012-09-11, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Resting_State_fMRI/2012-09-11_07_02_16.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.27863:0:0.00070184 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2073_2012-09-11_EMCI/func (64x64x48x140)
+Conversion required 4.745013 seconds (3.691606 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_2073/Resting_State_fMRI/2013-10-01_07_09_31.0
+    -> Date: 2013-10-01, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_2073/Resting_State_fMRI/2013-10-01_07_09_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.25153:0:0.000816966 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_2073_2013-10-01_EMCI/func (64x64x48x140)
+Conversion required 4.842268 seconds (3.729607 for core code).
+
+
+Processing subject: 002_S_4237
+  Processing scan from: baseline_resource/emci//002_S_4237/MPRAGE/2011-09-26_15_58_21.0
+    -> Date: 2011-09-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4237/MPRAGE/2011-09-26_15_58_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.19072:0:0.000405932 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4237_2011-09-26_EMCI/T1 (256x256x170x1)
+Conversion required 0.975217 seconds (0.906260 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/MPRAGE/2012-01-18_16_22_18.0
+    -> Date: 2012-01-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4237/MPRAGE/2012-01-18_16_22_18.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.34139:0:0.000421265 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4237_2012-01-18_EMCI/T1 (256x256x170x1)
+Conversion required 0.838080 seconds (0.768851 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/MPRAGE/2012-05-03_14_32_30.0
+    -> Date: 2012-05-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4237/MPRAGE/2012-05-03_14_32_30.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.77705:0:0.000325716 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4237_2012-05-03_EMCI/T1 (256x256x170x1)
+Conversion required 0.803979 seconds (0.735318 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/MPRAGE/2012-11-01_12_31_36.0
+    -> Date: 2012-11-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4237/MPRAGE/2012-11-01_12_31_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.42393:0:0.000372463 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4237_2012-11-01_EMCI/T1 (256x256x170x1)
+Conversion required 0.839314 seconds (0.769397 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/MPRAGE/2013-10-21_08_25_25.0
+    -> Date: 2013-10-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4237/MPRAGE/2013-10-21_08_25_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.49353:0:0.00037599 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4237_2013-10-21_EMCI/T1 (256x256x170x1)
+Conversion required 0.753507 seconds (0.689167 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/Resting_State_fMRI/2011-09-26_15_43_40.0
+    -> Date: 2011-09-26, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4237/Resting_State_fMRI/2011-09-26_15_43_40.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3s) and estimated (6.02158s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000485664 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4237_2011-09-26_EMCI/func (64x64x48x140)
+Conversion required 5.101410 seconds (4.032145 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/Resting_State_fMRI/2012-01-18_16_17_23.0
+    -> Date: 2012-01-18, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4237/Resting_State_fMRI/2012-01-18_16_17_23.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.37998:0:0.000729421 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4237_2012-01-18_EMCI/func (64x64x48x140)
+Conversion required 5.008238 seconds (3.946409 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/Resting_State_fMRI/2012-05-03_14_12_07.0
+    -> Date: 2012-05-03, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4237/Resting_State_fMRI/2012-05-03_14_12_07.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000695465 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4237_2012-05-03_EMCI/func (64x64x48x140)
+Conversion required 5.010777 seconds (3.902029 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/Resting_State_fMRI/2012-11-01_12_29_20.0
+    -> Date: 2012-11-01, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4237/Resting_State_fMRI/2012-11-01_12_29_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.35018:0:0.000650846 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4237_2012-11-01_EMCI/func (64x64x48x140)
+Conversion required 5.107103 seconds (3.987512 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4237/Resting_State_fMRI/2013-10-21_08_25_25.0
+    -> Date: 2013-10-21, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4237/Resting_State_fMRI/2013-10-21_08_25_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.32894:0:0.000856008 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4237_2013-10-21_EMCI/func (64x64x48x140)
+Conversion required 4.860796 seconds (3.736635 for core code).
+
+
+Processing subject: 002_S_4447
+  Processing scan from: baseline_resource/emci//002_S_4447/Extended_Resting_State_fMRI/2015-02-04_14_03_16.0
+    -> Date: 2015-02-04, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4447/Extended_Resting_State_fMRI/2015-02-04_14_03_16.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.69231:0:0.000814724 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_4447_2015-02-04_EMCI/func (64x64x48x200)
+Conversion required 7.147280 seconds (5.593580 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/MPRAGE/2012-01-17_09_52_42.0
+    -> Date: 2012-01-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4447/MPRAGE/2012-01-17_09_52_42.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.77656:0:0.00039559 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4447_2012-01-17_EMCI/T1 (256x256x170x1)
+Conversion required 0.931896 seconds (0.861845 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/MPRAGE/2012-04-23_16_25_46.0
+    -> Date: 2012-04-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4447/MPRAGE/2012-04-23_16_25_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.90745:0:0.000377164 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4447_2012-04-23_EMCI/T1 (256x256x170x1)
+Conversion required 0.935556 seconds (0.865682 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/MPRAGE/2012-08-14_16_24_00.0
+    -> Date: 2012-08-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4447/MPRAGE/2012-08-14_16_24_00.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.7851:0:0.00031981 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4447_2012-08-14_EMCI/T1 (256x256x170x1)
+Conversion required 0.966645 seconds (0.896695 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/MPRAGE/2013-01-30_07_04_05.0
+    -> Date: 2013-01-30, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4447/MPRAGE/2013-01-30_07_04_05.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.9033:0:0.000355469 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4447_2013-01-30_EMCI/T1 (256x256x170x1)
+Conversion required 0.752916 seconds (0.689713 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/MPRAGE/2014-02-14_09_46_20.0
+    -> Date: 2014-02-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4447/MPRAGE/2014-02-14_09_46_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.82735:0:0.00033074 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4447_2014-02-14_EMCI/T1 (256x256x170x1)
+Conversion required 0.819964 seconds (0.749939 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/MPRAGE/2015-02-04_14_03_16.0
+    -> Date: 2015-02-04, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4447/MPRAGE/2015-02-04_14_03_16.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.73455:0:0.000360967 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4447_2015-02-04_EMCI/T1 (256x256x170x1)
+Conversion required 0.958200 seconds (0.887565 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/Resting_State_fMRI/2012-01-17_09_49_41.0
+    -> Date: 2012-01-17, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4447/Resting_State_fMRI/2012-01-17_09_49_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.46325:0:0.000919502 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4447_2012-01-17_EMCI/func (64x64x48x140)
+Conversion required 4.869349 seconds (3.781606 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/Resting_State_fMRI/2012-04-23_16_22_51.0
+    -> Date: 2012-04-23, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4447/Resting_State_fMRI/2012-04-23_16_22_51.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00075046 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4447_2012-04-23_EMCI/func (64x64x48x140)
+Conversion required 4.953684 seconds (3.845240 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/Resting_State_fMRI/2012-08-14_16_20_06.0
+    -> Date: 2012-08-14, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4447/Resting_State_fMRI/2012-08-14_16_20_06.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.70305:0:0.000718843 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4447_2012-08-14_EMCI/func (64x64x48x140)
+Conversion required 4.921677 seconds (3.853196 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/Resting_State_fMRI/2013-01-30_06_56_38.0
+    -> Date: 2013-01-30, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4447/Resting_State_fMRI/2013-01-30_06_56_38.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.73407:0:0.000742274 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4447_2013-01-30_EMCI/func (64x64x48x140)
+Conversion required 5.027487 seconds (3.937523 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4447/Resting_State_fMRI/2014-02-14_09_46_20.0
+    -> Date: 2014-02-14, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4447/Resting_State_fMRI/2014-02-14_09_46_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3.001s) and estimated (6.02353s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000631151 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4447_2014-02-14_EMCI/func (64x64x48x140)
+Conversion required 5.034337 seconds (3.963535 for core code).
+
+
+Processing subject: 002_S_4473
+  Processing scan from: baseline_resource/emci//002_S_4473/Accelerated_Sagittal_MPRAGE/2017-03-07_14_08_04.0
+    -> Date: 2017-03-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Accelerated_Sagittal_MPRAGE/2017-03-07_14_08_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//002_S_4473_2017-03-07_EMCI/T1 (240x256x176x1)
+Conversion required 1.551295 seconds (1.462856 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Axial_rsfMRI__Eyes_Open_/2017-03-07_14_08_04.0
+    -> Date: 2017-03-07, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Axial_rsfMRI__Eyes_Open_/2017-03-07_14_08_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//002_S_4473_2017-03-07_EMCI/func (64x64x48x197)
+Conversion required 4.715967 seconds (4.635442 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Extended_Resting_State_fMRI/2015-02-12_14_25_05.0
+    -> Date: 2015-02-12, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Extended_Resting_State_fMRI/2015-02-12_14_25_05.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.27717:0:0.000583199 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_4473_2015-02-12_EMCI/func (64x64x48x200)
+Conversion required 6.604018 seconds (5.535549 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Extended_Resting_State_fMRI/2016-03-10_13_39_51.0
+    -> Date: 2016-03-10, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Extended_Resting_State_fMRI/2016-03-10_13_39_51.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.37558:0:0.00053249 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_4473_2016-03-10_EMCI/func (64x64x48x200)
+Conversion required 7.232719 seconds (5.719814 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/MPRAGE/2012-02-10_08_19_26.0
+    -> Date: 2012-02-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/MPRAGE/2012-02-10_08_19_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.13773:0:0.00036519 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4473_2012-02-10_EMCI/T1 (256x256x170x1)
+Conversion required 1.056721 seconds (0.990872 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/MPRAGE/2012-05-17_12_11_25.0
+    -> Date: 2012-05-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/MPRAGE/2012-05-17_12_11_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.36166:0:0.000288168 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4473_2012-05-17_EMCI/T1 (256x256x170x1)
+Conversion required 1.033891 seconds (0.963037 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/MPRAGE/2012-08-23_14_52_01.0
+    -> Date: 2012-08-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/MPRAGE/2012-08-23_14_52_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.38388:0:0.000311433 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4473_2012-08-23_EMCI/T1 (256x256x170x1)
+Conversion required 1.034849 seconds (0.965050 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/MPRAGE/2013-02-05_16_11_32.0
+    -> Date: 2013-02-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/MPRAGE/2013-02-05_16_11_32.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 150 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.70037:0:0.000323769 (see PMC3998685)
+Convert 150 DICOM as resource//002_S_4473_2013-02-05_EMCI/T1 (256x256x150x1)
+Conversion required 0.875342 seconds (0.816805 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/MPRAGE/2014-02-27_15_54_25.0
+    -> Date: 2014-02-27, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/MPRAGE/2014-02-27_15_54_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.1138:0:0.00034678 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4473_2014-02-27_EMCI/T1 (256x256x170x1)
+Conversion required 1.045589 seconds (0.975161 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/MPRAGE/2015-02-12_14_25_05.0
+    -> Date: 2015-02-12, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/MPRAGE/2015-02-12_14_25_05.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.19829:0:0.000334446 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4473_2015-02-12_EMCI/T1 (256x256x170x1)
+Conversion required 1.033065 seconds (0.953812 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/MPRAGE/2016-03-10_13_39_51.0
+    -> Date: 2016-03-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4473/MPRAGE/2016-03-10_13_39_51.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.42955:0:0.000341674 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4473_2016-03-10_EMCI/T1 (256x256x170x1)
+Conversion required 0.884397 seconds (0.796367 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Resting_State_fMRI/2012-02-10_08_17_15.0
+    -> Date: 2012-02-10, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Resting_State_fMRI/2012-02-10_08_17_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.25275:0:0.000448203 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4473_2012-02-10_EMCI/func (64x64x48x140)
+Conversion required 5.062417 seconds (3.874021 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Resting_State_fMRI/2012-05-17_12_09_20.0
+    -> Date: 2012-05-17, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Resting_State_fMRI/2012-05-17_12_09_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22589:0:0.00044106 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4473_2012-05-17_EMCI/func (64x64x48x140)
+Conversion required 4.943108 seconds (3.836406 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Resting_State_fMRI/2012-08-23_14_42_14.0
+    -> Date: 2012-08-23, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Resting_State_fMRI/2012-08-23_14_42_14.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000449112 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4473_2012-08-23_EMCI/func (64x64x48x140)
+Conversion required 5.080207 seconds (4.015157 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Resting_State_fMRI/2013-02-05_16_05_58.0
+    -> Date: 2013-02-05, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Resting_State_fMRI/2013-02-05_16_05_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000436449 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4473_2013-02-05_EMCI/func (64x64x48x140)
+Conversion required 4.919162 seconds (3.864040 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4473/Resting_State_fMRI/2014-02-27_15_54_25.0
+    -> Date: 2014-02-27, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4473/Resting_State_fMRI/2014-02-27_15_54_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3.001s) and estimated (6.02353s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000551844 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4473_2014-02-27_EMCI/func (64x64x48x140)
+Conversion required 4.788152 seconds (3.726974 for core code).
+
+
+Processing subject: 002_S_4799
+  Processing scan from: baseline_resource/emci//002_S_4799/Accelerated_Sagittal_MPRAGE/2017-05-22_13_32_04.0
+    -> Date: 2017-05-22, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Accelerated_Sagittal_MPRAGE/2017-05-22_13_32_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//002_S_4799_2017-05-22_EMCI/T1 (240x256x176x1)
+Conversion required 1.532224 seconds (1.447572 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Accelerated_Sagittal_MPRAGE/2018-06-14_07_58_09.0
+    -> Date: 2018-06-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Accelerated_Sagittal_MPRAGE/2018-06-14_07_58_09.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//002_S_4799_2018-06-14_EMCI/T1 (240x256x208x1)
+Conversion required 1.826110 seconds (1.720741 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Accelerated_Sagittal_MPRAGE/2019-06-18_13_04_43.0
+    -> Date: 2019-06-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Accelerated_Sagittal_MPRAGE/2019-06-18_13_04_43.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//002_S_4799_2019-06-18_EMCI/T1 (240x256x208x1)
+Conversion required 1.858871 seconds (1.753958 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Axial_MB_rsfMRI__Eyes_Open_/2019-06-18_13_04_43.0
+    -> Date: 2019-06-18, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Axial_MB_rsfMRI__Eyes_Open_/2019-06-18_13_04_43.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 976 DICOM file(s)
+Warning: Issue870: Slice timing range of first volume: range 0..515, TA= 515, TR=607 ms)
+Warning: Issue870: Slice timing range of 2nd volume: range 0..512.5, TA= 512.5, TR=607 ms)
+Convert 976 DICOM as resource//002_S_4799_2019-06-18_EMCI/func (88x88x64x976)
+Conversion required 59.745495 seconds (59.089394 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Axial_rsfMRI__Eyes_Open_/2017-05-22_13_32_04.0
+    -> Date: 2017-05-22, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Axial_rsfMRI__Eyes_Open_/2017-05-22_13_32_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//002_S_4799_2017-05-22_EMCI/func (64x64x48x197)
+Conversion required 4.742842 seconds (4.670332 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Axial_rsfMRI__Eyes_Open_/2018-06-14_07_58_09.0
+    -> Date: 2018-06-14, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Axial_rsfMRI__Eyes_Open_/2018-06-14_07_58_09.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//002_S_4799_2018-06-14_EMCI/func (64x64x48x197)
+Conversion required 4.514408 seconds (4.438602 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Extended_Resting_State_fMRI/2014-07-03_08_43_26.0
+    -> Date: 2014-07-03, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Extended_Resting_State_fMRI/2014-07-03_08_43_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000551733 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_4799_2014-07-03_EMCI/func (64x64x48x200)
+Conversion required 7.356657 seconds (5.716121 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Extended_Resting_State_fMRI/2016-07-26_16_06_19.0
+    -> Date: 2016-07-26, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Extended_Resting_State_fMRI/2016-07-26_16_06_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.34286:0:0.000662966 (see PMC3998685)
+Convert 9600 DICOM as resource//002_S_4799_2016-07-26_EMCI/func (64x64x48x200)
+Conversion required 6.820641 seconds (5.330227 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/MPRAGE/2012-06-21_16_39_51.0
+    -> Date: 2012-06-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/MPRAGE/2012-06-21_16_39_51.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.95604:0:0.000331035 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4799_2012-06-21_EMCI/T1 (256x256x170x1)
+Conversion required 1.004882 seconds (0.936766 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/MPRAGE/2012-09-10_19_06_28.0
+    -> Date: 2012-09-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/MPRAGE/2012-09-10_19_06_28.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.24225:0:0.000316636 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4799_2012-09-10_EMCI/T1 (256x256x170x1)
+Conversion required 0.968658 seconds (0.906049 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/MPRAGE/2013-01-10_17_11_49.0
+    -> Date: 2013-01-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/MPRAGE/2013-01-10_17_11_49.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.16752:0:0.000321702 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4799_2013-01-10_EMCI/T1 (256x256x170x1)
+Conversion required 0.972690 seconds (0.903408 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/MPRAGE/2013-07-02_06_57_42.0
+    -> Date: 2013-07-02, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/MPRAGE/2013-07-02_06_57_42.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.09377:0:0.000342348 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4799_2013-07-02_EMCI/T1 (256x256x170x1)
+Conversion required 0.953919 seconds (0.888295 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/MPRAGE/2014-07-03_08_43_26.0
+    -> Date: 2014-07-03, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/MPRAGE/2014-07-03_08_43_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.22637:0:0.000339114 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4799_2014-07-03_EMCI/T1 (256x256x170x1)
+Conversion required 0.972317 seconds (0.902352 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/MPRAGE/2016-07-26_16_06_19.0
+    -> Date: 2016-07-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//002_S_4799/MPRAGE/2016-07-26_16_06_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.50769:0:0.000313568 (see PMC3998685)
+Convert 170 DICOM as resource//002_S_4799_2016-07-26_EMCI/T1 (256x256x170x1)
+Conversion required 0.932193 seconds (0.863048 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Resting_State_fMRI/2012-06-21_16_25_41.0
+    -> Date: 2012-06-21, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Resting_State_fMRI/2012-06-21_16_25_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.23663:0:0.000555588 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4799_2012-06-21_EMCI/func (64x64x48x140)
+Conversion required 5.028035 seconds (3.952998 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Resting_State_fMRI/2012-09-10_19_02_54.0
+    -> Date: 2012-09-10, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Resting_State_fMRI/2012-09-10_19_02_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000551147 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4799_2012-09-10_EMCI/func (64x64x48x140)
+Conversion required 5.024060 seconds (3.958020 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Resting_State_fMRI/2013-01-10_17_01_44.0
+    -> Date: 2013-01-10, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Resting_State_fMRI/2013-01-10_17_01_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3s) and estimated (6.02158s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.25031:0:0.000645058 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4799_2013-01-10_EMCI/func (64x64x48x140)
+Conversion required 4.948894 seconds (3.833144 for core code).
+
+  Processing scan from: baseline_resource/emci//002_S_4799/Resting_State_fMRI/2013-07-02_06_57_42.0
+    -> Date: 2013-07-02, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//002_S_4799/Resting_State_fMRI/2013-07-02_06_57_42.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.41758:0:0.000623651 (see PMC3998685)
+Convert 6720 DICOM as resource//002_S_4799_2013-07-02_EMCI/func (64x64x48x140)
+Conversion required 4.937407 seconds (3.885550 for core code).
+
+
+Processing subject: 003_S_2374
+  Processing scan from: baseline_resource/emci//003_S_2374/Accelerated_Sagittal_MPRAGE/2018-12-14_07_58_40.0
+    -> Date: 2018-12-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//003_S_2374/Accelerated_Sagittal_MPRAGE/2018-12-14_07_58_40.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//003_S_2374_2018-12-14_EMCI/T1 (240x256x208x1)
+Conversion required 1.836079 seconds (1.747588 for core code).
+
+  Processing scan from: baseline_resource/emci//003_S_2374/Axial_rsfMRI__Eyes_Open_/2018-12-14_07_58_40.0
+    -> Date: 2018-12-14, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//003_S_2374/Axial_rsfMRI__Eyes_Open_/2018-12-14_07_58_40.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//003_S_2374_2018-12-14_EMCI/func (64x64x48x197)
+Conversion required 4.787212 seconds (4.710370 for core code).
+
+
+Processing subject: 005_S_4185
+  Processing scan from: baseline_resource/emci//005_S_4185/Accelerated_Sagittal_IR-FSPGR/2017-09-21_10_29_19.0
+    -> Date: 2017-09-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//005_S_4185/Accelerated_Sagittal_IR-FSPGR/2017-09-21_10_29_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 196 DICOM file(s)
+Convert 196 DICOM as resource//005_S_4185_2017-09-21_EMCI/T1 (256x256x196x1)
+Conversion required 1.220658 seconds (1.139589 for core code).
+
+  Processing scan from: baseline_resource/emci//005_S_4185/Accelerated_Sagittal_IR-FSPGR/2018-09-27_10_30_35.0
+    -> Date: 2018-09-27, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//005_S_4185/Accelerated_Sagittal_IR-FSPGR/2018-09-27_10_30_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 196 DICOM file(s)
+Convert 196 DICOM as resource//005_S_4185_2018-09-27_EMCI/T1 (256x256x196x1)
+Conversion required 1.224005 seconds (1.143676 for core code).
+
+  Processing scan from: baseline_resource/emci//005_S_4185/Axial_rsfMRI__Eyes_Open_/2017-09-21_10_29_19.0
+    -> Date: 2017-09-21, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//005_S_4185/Axial_rsfMRI__Eyes_Open_/2017-09-21_10_29_19.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Convert 9600 DICOM as resource//005_S_4185_2017-09-21_EMCI/func (64x64x48x200)
+Conversion required 7.468838 seconds (5.146415 for core code).
+
+  Processing scan from: baseline_resource/emci//005_S_4185/Axial_rsfMRI__Eyes_Open_/2018-09-27_10_30_35.0
+    -> Date: 2018-09-27, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//005_S_4185/Axial_rsfMRI__Eyes_Open_/2018-09-27_10_30_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Convert 9600 DICOM as resource//005_S_4185_2018-09-27_EMCI/func (64x64x48x200)
+Conversion required 7.354665 seconds (5.015271 for core code).
+
+
+Processing subject: 006_S_4679
+  Processing scan from: baseline_resource/emci//006_S_4679/Extended_Resting_State_fMRI/2014-06-26_13_11_26.0
+    -> Date: 2014-06-26, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//006_S_4679/Extended_Resting_State_fMRI/2014-06-26_13_11_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00426215 (see PMC3998685)
+Convert 9600 DICOM as resource//006_S_4679_2014-06-26_EMCI/func (64x64x48x200)
+Conversion required 7.334803 seconds (5.774755 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/MPRAGE/2012-06-01_09_48_33.0
+    -> Date: 2012-06-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//006_S_4679/MPRAGE/2012-06-01_09_48_33.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.15678:0:0.00342013 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4679_2012-06-01_EMCI/T1 (256x256x170x1)
+Conversion required 0.950284 seconds (0.885186 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/MPRAGE/2012-09-14_11_22_44.0
+    -> Date: 2012-09-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//006_S_4679/MPRAGE/2012-09-14_11_22_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.56288:0:0.00312926 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4679_2012-09-14_EMCI/T1 (256x256x170x1)
+Conversion required 0.944217 seconds (0.818659 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/MPRAGE/2012-12-07_11_04_39.0
+    -> Date: 2012-12-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//006_S_4679/MPRAGE/2012-12-07_11_04_39.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.85275:0:0.00431139 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4679_2012-12-07_EMCI/T1 (256x256x170x1)
+Conversion required 0.984607 seconds (0.863232 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/MPRAGE/2013-07-18_11_58_41.0
+    -> Date: 2013-07-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//006_S_4679/MPRAGE/2013-07-18_11_58_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.93626:0:0.00302508 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4679_2013-07-18_EMCI/T1 (256x256x170x1)
+Conversion required 0.939369 seconds (0.822066 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/MPRAGE/2014-06-26_13_11_26.0
+    -> Date: 2014-06-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//006_S_4679/MPRAGE/2014-06-26_13_11_26.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.74408:0:0.00357246 (see PMC3998685)
+Convert 170 DICOM as resource//006_S_4679_2014-06-26_EMCI/T1 (256x256x170x1)
+Conversion required 0.972217 seconds (0.840359 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/Resting_State_fMRI/2012-06-01_09_10_10.0
+    -> Date: 2012-06-01, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//006_S_4679/Resting_State_fMRI/2012-06-01_09_10_10.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00543113 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4679_2012-06-01_EMCI/func (64x64x48x140)
+Conversion required 5.005911 seconds (3.901181 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/Resting_State_fMRI/2012-09-14_11_16_08.0
+    -> Date: 2012-09-14, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//006_S_4679/Resting_State_fMRI/2012-09-14_11_16_08.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.55116:0:0.00510384 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4679_2012-09-14_EMCI/func (64x64x48x140)
+Conversion required 4.833324 seconds (3.719060 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/Resting_State_fMRI/2012-12-07_10_56_05.0
+    -> Date: 2012-12-07, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//006_S_4679/Resting_State_fMRI/2012-12-07_10_56_05.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00358688 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4679_2012-12-07_EMCI/func (64x64x48x140)
+Conversion required 5.239116 seconds (4.134395 for core code).
+
+  Processing scan from: baseline_resource/emci//006_S_4679/Resting_State_fMRI/2013-07-18_11_58_41.0
+    -> Date: 2013-07-18, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//006_S_4679/Resting_State_fMRI/2013-07-18_11_58_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00295434 (see PMC3998685)
+Convert 6720 DICOM as resource//006_S_4679_2013-07-18_EMCI/func (64x64x48x140)
+Conversion required 5.261033 seconds (4.177444 for core code).
+
+
+Processing subject: 011_S_4547
+  Processing scan from: baseline_resource/emci//011_S_4547/Accelerated_Sagittal_MPRAGE/2017-08-18_14_23_17.0
+    -> Date: 2017-08-18, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//011_S_4547/Accelerated_Sagittal_MPRAGE/2017-08-18_14_23_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//011_S_4547_2017-08-18_EMCI/T1 (240x256x208x1)
+Conversion required 1.835237 seconds (1.729992 for core code).
+
+  Processing scan from: baseline_resource/emci//011_S_4547/Axial_rsfMRI__Eyes_Open_/2017-08-18_14_23_17.0
+    -> Date: 2017-08-18, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//011_S_4547/Axial_rsfMRI__Eyes_Open_/2017-08-18_14_23_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//011_S_4547_2017-08-18_EMCI/func (64x64x48x197)
+Conversion required 4.925936 seconds (4.783119 for core code).
+
+
+Processing subject: 012_S_4012
+  Processing scan from: baseline_resource/emci//012_S_4012/Extended_Resting_State_fMRI/2015-05-07_08_21_46.0
+    -> Date: 2015-05-07, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4012/Extended_Resting_State_fMRI/2015-05-07_08_21_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.40635:0:0.000972553 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2015-05-07_EMCI/func (64x64x48x200)
+Conversion required 4.558009 seconds (4.479305 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/MPRAGE/2011-07-20_15_25_55.0
+    -> Date: 2011-07-20, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4012/MPRAGE/2011-07-20_15_25_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.16606:0:0.000500501 (see PMC3998685)
+Convert 170 DICOM as resource//012_S_4012_2011-07-20_EMCI/T1 (256x256x170x1)
+Conversion required 1.026897 seconds (0.956725 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/MPRAGE/2011-11-07_12_22_11.0
+    -> Date: 2011-11-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4012/MPRAGE/2011-11-07_12_22_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.27033:0:0.000512887 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2011-11-07_EMCI/T1 (256x256x170x1)
+Conversion required 0.892540 seconds (0.885624 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/MPRAGE/2012-05-21_12_40_47.0
+    -> Date: 2012-05-21, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4012/MPRAGE/2012-05-21_12_40_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.47375:0:0.000586761 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2012-05-21_EMCI/T1 (256x256x170x1)
+Conversion required 0.998738 seconds (0.984391 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/MPRAGE/2013-05-16_11_59_31.0
+    -> Date: 2013-05-16, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4012/MPRAGE/2013-05-16_11_59_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.89695:0:0.000497671 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2013-05-16_EMCI/T1 (256x256x170x1)
+Conversion required 0.886067 seconds (0.870827 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/MPRAGE/2015-05-07_08_21_46.0
+    -> Date: 2015-05-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4012/MPRAGE/2015-05-07_08_21_46.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.07253:0:0.000451061 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2015-05-07_EMCI/T1 (256x256x170x1)
+Conversion required 0.954287 seconds (0.938592 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/Resting_State_fMRI/2011-07-20_15_22_36.0
+    -> Date: 2011-07-20, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4012/Resting_State_fMRI/2011-07-20_15_22_36.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3s) and estimated (6.02158s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000783705 (see PMC3998685)
+Convert 6720 DICOM as resource//012_S_4012_2011-07-20_EMCI/func (64x64x48x140)
+Conversion required 5.219093 seconds (4.186307 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/Resting_State_fMRI/2011-11-07_12_22_11.0
+    -> Date: 2011-11-07, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4012/Resting_State_fMRI/2011-11-07_12_22_11.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.58877:0:0.00112005 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2011-11-07_EMCI/func (64x64x48x140)
+Conversion required 3.175114 seconds (3.144935 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/Resting_State_fMRI/2012-05-21_12_40_47.0
+    -> Date: 2012-05-21, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4012/Resting_State_fMRI/2012-05-21_12_40_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.35897:0:0.000935328 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2012-05-21_EMCI/func (64x64x48x140)
+Conversion required 3.215766 seconds (3.181812 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4012/Resting_State_fMRI/2013-05-16_11_59_31.0
+    -> Date: 2013-05-16, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4012/Resting_State_fMRI/2013-05-16_11_59_31.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00073832 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4012_2013-05-16_EMCI/func (64x64x48x140)
+Conversion required 3.374530 seconds (3.351419 for core code).
+
+
+Processing subject: 012_S_4128
+  Processing scan from: baseline_resource/emci//012_S_4128/Extended_Resting_State_fMRI/2015-09-17_10_18_15.0
+    -> Date: 2015-09-17, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4128/Extended_Resting_State_fMRI/2015-09-17_10_18_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.38901:0:0.00105368 (see PMC3998685)
+Convert 9600 DICOM as resource//012_S_4128_2015-09-17_EMCI/func (64x64x48x200)
+Conversion required 7.174563 seconds (5.693367 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/MPRAGE/2011-07-29_14_59_54.0
+    -> Date: 2011-07-29, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4128/MPRAGE/2011-07-29_14_59_54.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.17314:0:0.000504328 (see PMC3998685)
+Convert 170 DICOM as resource//012_S_4128_2011-07-29_EMCI/T1 (256x256x170x1)
+Conversion required 0.871029 seconds (0.808155 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/MPRAGE/2011-11-01_14_07_21.0
+    -> Date: 2011-11-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4128/MPRAGE/2011-11-01_14_07_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.15922:0:0.000499342 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4128_2011-11-01_EMCI/T1 (256x256x170x1)
+Conversion required 0.800108 seconds (0.795534 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/MPRAGE/2012-03-06_10_26_45.0
+    -> Date: 2012-03-06, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4128/MPRAGE/2012-03-06_10_26_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.13407:0:0.000479755 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4128_2012-03-06_EMCI/T1 (256x256x170x1)
+Conversion required 0.770569 seconds (0.761554 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/MPRAGE/2012-08-29_12_11_40.0
+    -> Date: 2012-08-29, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4128/MPRAGE/2012-08-29_12_11_40.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.8801:0:0.000439435 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4128_2012-08-29_EMCI/T1 (256x256x170x1)
+Conversion required 0.818515 seconds (0.809811 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/MPRAGE/2013-08-05_08_38_17.0
+    -> Date: 2013-08-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4128/MPRAGE/2013-08-05_08_38_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.03419:0:0.000476464 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4128_2013-08-05_EMCI/T1 (256x256x170x1)
+Conversion required 0.771413 seconds (0.754419 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/MPRAGE/2015-09-17_10_18_15.0
+    -> Date: 2015-09-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4128/MPRAGE/2015-09-17_10_18_15.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.94359:0:0.000460443 (see PMC3998685)
+Convert 170 DICOM as resource//012_S_4128_2015-09-17_EMCI/T1 (256x256x170x1)
+Conversion required 0.897064 seconds (0.829121 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/Resting_State_fMRI/2011-07-29_14_57_29.0
+    -> Date: 2011-07-29, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4128/Resting_State_fMRI/2011-07-29_14_57_29.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Warning: Discrepancy between reported (3s) and estimated (6.02158s) repetition time (issue 560).
+Warning: Seconds between volumes varies
+Philips Scaling Values RS:RI:SS = 1.56264:0:0.00117052 (see PMC3998685)
+Convert 6720 DICOM as resource//012_S_4128_2011-07-29_EMCI/func (64x64x48x140)
+Conversion required 4.962005 seconds (3.919856 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/Resting_State_fMRI/2011-11-01_14_07_21.0
+    -> Date: 2011-11-01, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4128/Resting_State_fMRI/2011-11-01_14_07_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000844476 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4128_2011-11-01_EMCI/func (64x64x48x140)
+Conversion required 3.470535 seconds (3.454973 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/Resting_State_fMRI/2012-03-06_10_26_45.0
+    -> Date: 2012-03-06, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4128/Resting_State_fMRI/2012-03-06_10_26_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.27204:0:0.000673688 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4128_2012-03-06_EMCI/func (64x64x48x140)
+Conversion required 3.524591 seconds (3.506183 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/Resting_State_fMRI/2012-08-29_12_11_40.0
+    -> Date: 2012-08-29, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4128/Resting_State_fMRI/2012-08-29_12_11_40.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.55116:0:0.000925661 (see PMC3998685)
+Convert 6720 DICOM as resource//012_S_4128_2012-08-29_EMCI/func (80x80x48x140)
+Conversion required 7.880561 seconds (6.284157 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4128/Resting_State_fMRI/2013-08-05_08_38_17.0
+    -> Date: 2013-08-05, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4128/Resting_State_fMRI/2013-08-05_08_38_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.72283:0:0.00150658 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4128_2013-08-05_EMCI/func (80x80x48x140)
+Conversion required 5.508682 seconds (5.469477 for core code).
+
+
+Processing subject: 012_S_4188
+  Processing scan from: baseline_resource/emci//012_S_4188/Accelerated_Sagittal_MPRAGE/2017-09-11_16_36_10.0
+    -> Date: 2017-09-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Accelerated_Sagittal_MPRAGE/2017-09-11_16_36_10.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 208 DICOM file(s)
+Convert 208 DICOM as resource//012_S_4188_2017-09-11_EMCI/T1 (240x256x208x1)
+Conversion required 1.911094 seconds (1.829307 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Accelerated_Sagittal_MPRAGE/2019-09-04_09_18_23.0
+    -> Date: 2019-09-04, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Accelerated_Sagittal_MPRAGE/2019-09-04_09_18_23.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//012_S_4188_2019-09-04_EMCI/T1 (240x256x176x1)
+Conversion required 1.545626 seconds (1.469779 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Axial_rsfMRI__Eyes_Open_/2017-09-11_16_36_10.0
+    -> Date: 2017-09-11, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Axial_rsfMRI__Eyes_Open_/2017-09-11_16_36_10.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 139 DICOM file(s)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 139 DICOM as resource//012_S_4188_2017-09-11_EMCI/func (64x64x48x139)
+Conversion required 3.282078 seconds (3.175694 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Axial_rsfMRI__Eyes_Open_/2019-09-04_09_18_23.0
+    -> Date: 2019-09-04, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Axial_rsfMRI__Eyes_Open_/2019-09-04_09_18_23.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Convert 197 DICOM as resource//012_S_4188_2019-09-04_EMCI/func (64x64x48x197)
+Conversion required 4.624300 seconds (4.540995 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Extended_Resting_State_fMRI/2015-10-08_08_37_01.0
+    -> Date: 2015-10-08, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Extended_Resting_State_fMRI/2015-10-08_08_37_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 9600 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000879695 (see PMC3998685)
+Convert 9600 DICOM as resource//012_S_4188_2015-10-08_EMCI/func (64x64x48x200)
+Conversion required 7.142389 seconds (5.342360 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/MPRAGE/2011-09-07_13_17_51.0
+    -> Date: 2011-09-07, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4188/MPRAGE/2011-09-07_13_17_51.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.15775:0:0.000456666 (see PMC3998685)
+Convert 170 DICOM as resource//012_S_4188_2011-09-07_EMCI/T1 (256x256x170x1)
+Conversion required 1.124115 seconds (1.000521 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/MPRAGE/2011-12-13_13_34_41.0
+    -> Date: 2011-12-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4188/MPRAGE/2011-12-13_13_34_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.26154:0:0.00045985 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4188_2011-12-13_EMCI/T1 (256x256x170x1)
+Conversion required 0.951496 seconds (0.927277 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/MPRAGE/2012-05-02_13_22_56.0
+    -> Date: 2012-05-02, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4188/MPRAGE/2012-05-02_13_22_56.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.19756:0:0.00045982 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4188_2012-05-02_EMCI/T1 (256x256x170x1)
+Conversion required 0.930031 seconds (0.918458 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/MPRAGE/2013-10-08_10_18_04.0
+    -> Date: 2013-10-08, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4188/MPRAGE/2013-10-08_10_18_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.02466:0:0.000439209 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4188_2013-10-08_EMCI/T1 (256x256x170x1)
+Conversion required 0.899171 seconds (0.884976 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/MPRAGE/2015-10-08_08_37_01.0
+    -> Date: 2015-10-08, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4188/MPRAGE/2015-10-08_08_37_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.07473:0:0.000414151 (see PMC3998685)
+Convert 170 DICOM as resource//012_S_4188_2015-10-08_EMCI/T1 (256x256x170x1)
+Conversion required 0.999532 seconds (0.933310 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Resting_State_fMRI/2011-09-07_13_15_08.0
+    -> Date: 2011-09-07, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Resting_State_fMRI/2011-09-07_13_15_08.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.71282:0:0.00133691 (see PMC3998685)
+Convert 6720 DICOM as resource//012_S_4188_2011-09-07_EMCI/func (112x112x48x140)
+Conversion required 9.964782 seconds (8.558127 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Resting_State_fMRI/2011-12-13_13_34_41.0
+    -> Date: 2011-12-13, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Resting_State_fMRI/2011-12-13_13_34_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.24982:0:0.00104546 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4188_2011-12-13_EMCI/func (64x64x48x140)
+Conversion required 3.018101 seconds (2.991941 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Resting_State_fMRI/2012-05-02_13_22_56.0
+    -> Date: 2012-05-02, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Resting_State_fMRI/2012-05-02_13_22_56.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.26667:0:0.000795507 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4188_2012-05-02_EMCI/func (64x64x48x140)
+Conversion required 3.116442 seconds (3.088931 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4188/Resting_State_fMRI/2013-10-08_10_18_04.0
+    -> Date: 2013-10-08, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4188/Resting_State_fMRI/2013-10-08_10_18_04.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.55702:0:0.00100128 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4188_2013-10-08_EMCI/func (80x80x48x140)
+Conversion required 5.133807 seconds (5.091308 for core code).
+
+
+Processing subject: 012_S_4849
+  Processing scan from: baseline_resource/emci//012_S_4849/MPRAGE/2012-07-24_09_50_58.0
+    -> Date: 2012-07-24, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4849/MPRAGE/2012-07-24_09_50_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.98926:0:0.000531249 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2012-07-24_EMCI/T1 (256x256x170x1)
+Conversion required 0.849026 seconds (0.833177 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4849/MPRAGE/2012-11-05_12_04_44.0
+    -> Date: 2012-11-05, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4849/MPRAGE/2012-11-05_12_04_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.06569:0:0.00051972 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2012-11-05_EMCI/T1 (256x256x170x1)
+Conversion required 0.909699 seconds (0.895043 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4849/MPRAGE/2013-02-25_13_24_41.0
+    -> Date: 2013-02-25, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4849/MPRAGE/2013-02-25_13_24_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.07179:0:0.000511607 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2013-02-25_EMCI/T1 (256x256x170x1)
+Conversion required 0.941479 seconds (0.931281 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4849/MPRAGE/2013-08-26_14_02_58.0
+    -> Date: 2013-08-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4849/MPRAGE/2013-08-26_14_02_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.95678:0:0.000486294 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2013-08-26_EMCI/T1 (256x256x170x1)
+Conversion required 0.852153 seconds (0.829295 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4849/Resting_State_fMRI/2012-07-24_09_50_58.0
+    -> Date: 2012-07-24, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4849/Resting_State_fMRI/2012-07-24_09_50_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.50867:0:0.00122705 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2012-07-24_EMCI/func (64x64x48x140)
+Conversion required 3.272471 seconds (3.251193 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4849/Resting_State_fMRI/2012-11-05_12_04_44.0
+    -> Date: 2012-11-05, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4849/Resting_State_fMRI/2012-11-05_12_04_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.26154:0:0.00107052 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2012-11-05_EMCI/func (64x64x48x140)
+Conversion required 3.213664 seconds (3.171193 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4849/Resting_State_fMRI/2013-02-25_13_24_41.0
+    -> Date: 2013-02-25, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4849/Resting_State_fMRI/2013-02-25_13_24_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000987917 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2013-02-25_EMCI/func (64x64x48x140)
+Conversion required 3.233756 seconds (3.209977 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4849/Resting_State_fMRI/2013-08-26_14_02_58.0
+    -> Date: 2013-08-26, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4849/Resting_State_fMRI/2013-08-26_14_02_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00103059 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4849_2013-08-26_EMCI/func (64x64x48x140)
+Conversion required 3.209650 seconds (3.184169 for core code).
+
+
+Processing subject: 012_S_4987
+  Processing scan from: baseline_resource/emci//012_S_4987/MPRAGE/2012-11-02_13_22_47.0
+    -> Date: 2012-11-02, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4987/MPRAGE/2012-11-02_13_22_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.01514:0:0.00046313 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2012-11-02_EMCI/T1 (256x256x170x1)
+Conversion required 0.807702 seconds (0.795232 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4987/MPRAGE/2013-02-12_12_36_27.0
+    -> Date: 2013-02-12, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4987/MPRAGE/2013-02-12_12_36_27.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.17802:0:0.000469723 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2013-02-12_EMCI/T1 (256x256x170x1)
+Conversion required 0.977157 seconds (0.957966 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4987/MPRAGE/2013-05-13_13_58_01.0
+    -> Date: 2013-05-13, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4987/MPRAGE/2013-05-13_13_58_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.01416:0:0.000441377 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2013-05-13_EMCI/T1 (256x256x170x1)
+Conversion required 0.983515 seconds (0.967847 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4987/MPRAGE/2013-11-11_14_23_10.0
+    -> Date: 2013-11-11, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//012_S_4987/MPRAGE/2013-11-11_14_23_10.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 3.94628:0:0.000432296 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2013-11-11_EMCI/T1 (256x256x170x1)
+Conversion required 0.922527 seconds (0.907646 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4987/Resting_State_fMRI/2012-11-02_13_22_47.0
+    -> Date: 2012-11-02, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4987/Resting_State_fMRI/2012-11-02_13_22_47.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.64298:0:0.00115249 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2012-11-02_EMCI/func (80x80x48x140)
+Conversion required 5.069197 seconds (5.021645 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4987/Resting_State_fMRI/2013-02-12_12_36_27.0
+    -> Date: 2013-02-12, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4987/Resting_State_fMRI/2013-02-12_12_36_27.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.41441:0:0.00148874 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2013-02-12_EMCI/func (80x80x48x140)
+Conversion required 4.836382 seconds (4.797327 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4987/Resting_State_fMRI/2013-05-13_13_58_01.0
+    -> Date: 2013-05-13, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4987/Resting_State_fMRI/2013-05-13_13_58_01.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00088327 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2013-05-13_EMCI/func (64x64x48x140)
+Conversion required 3.165344 seconds (3.134176 for core code).
+
+  Processing scan from: baseline_resource/emci//012_S_4987/Resting_State_fMRI/2013-11-11_14_23_10.0
+    -> Date: 2013-11-11, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//012_S_4987/Resting_State_fMRI/2013-11-11_14_23_10.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 1 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000909022 (see PMC3998685)
+Convert 1 DICOM as resource//012_S_4987_2013-11-11_EMCI/func (64x64x48x140)
+Conversion required 3.039695 seconds (3.017753 for core code).
+
+
+Processing subject: 013_S_2324
+  Processing scan from: baseline_resource/emci//013_S_2324/MPRAGE/2011-03-25_13_28_32.0
+    -> Date: 2011-03-25, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2324/MPRAGE/2011-03-25_13_28_32.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.42247:0:0.000275593 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2324_2011-03-25_EMCI/T1 (256x256x170x1)
+Conversion required 1.353394 seconds (1.283221 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2324/MPRAGE/2011-06-27_10_50_12.0
+    -> Date: 2011-06-27, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2324/MPRAGE/2011-06-27_10_50_12.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.65958:0:0.000280462 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2324_2011-06-27_EMCI/T1 (256x256x170x1)
+Conversion required 1.152687 seconds (1.088038 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2324/MPRAGE/2011-10-06_16_17_17.0
+    -> Date: 2011-10-06, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2324/MPRAGE/2011-10-06_16_17_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 6.79683:0:0.000169628 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2324_2011-10-06_EMCI/T1 (256x256x170x1)
+Conversion required 1.128275 seconds (1.064256 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2324/MPRAGE/2012-04-17_16_16_20.0
+    -> Date: 2012-04-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2324/MPRAGE/2012-04-17_16_16_20.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.47057:0:0.000272064 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2324_2012-04-17_EMCI/T1 (256x256x170x1)
+Conversion required 1.545504 seconds (1.426611 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2324/Resting_State_fMRI/2011-03-25_13_18_13.0
+    -> Date: 2011-03-25, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2324/Resting_State_fMRI/2011-03-25_13_18_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.49646:0:0.000403465 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2324_2011-03-25_EMCI/func (64x64x48x140)
+Conversion required 4.911227 seconds (3.815786 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2324/Resting_State_fMRI/2011-06-27_10_44_25.0
+    -> Date: 2011-06-27, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2324/Resting_State_fMRI/2011-06-27_10_44_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.78144:0:0.000332145 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2324_2011-06-27_EMCI/func (64x64x48x140)
+Conversion required 5.013525 seconds (3.934436 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2324/Resting_State_fMRI/2011-10-06_16_13_39.0
+    -> Date: 2011-10-06, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2324/Resting_State_fMRI/2011-10-06_16_13_39.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.52821:0:0.000417266 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2324_2011-10-06_EMCI/func (64x64x48x140)
+Conversion required 5.125932 seconds (4.071449 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2324/Resting_State_fMRI/2012-04-17_16_13_13.0
+    -> Date: 2012-04-17, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2324/Resting_State_fMRI/2012-04-17_16_13_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.8547:0:0.000479071 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2324_2012-04-17_EMCI/func (64x64x48x140)
+Conversion required 5.125013 seconds (4.003521 for core code).
+
+
+Processing subject: 013_S_2389
+  Processing scan from: baseline_resource/emci//013_S_2389/Accelerated_Sagittal_MPRAGE/2017-11-30_15_52_21.0
+    -> Date: 2017-11-30, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2389/Accelerated_Sagittal_MPRAGE/2017-11-30_15_52_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//013_S_2389_2017-11-30_EMCI/T1 (240x256x176x1)
+Conversion required 1.459473 seconds (1.381355 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/Axial_rsfMRI__EYES_OPEN_/2017-11-30_15_52_21.0
+    -> Date: 2017-11-30, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2389/Axial_rsfMRI__EYES_OPEN_/2017-11-30_15_52_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Issue870: Slice timing range of first volume: range 0..2947.5, TA= 2947.5, TR=3000 ms)
+Warning: Issue870: Slice timing range of 2nd volume: range 0..2950, TA= 2950, TR=3000 ms)
+Warning: Weird CSA 'ProtocolSliceNumber' (System/Miscellaneous/ImageNumbering reversed): VALIDATE SLICETIMING AND BVECS
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//013_S_2389_2017-11-30_EMCI/func (64x64x48x197)
+Conversion required 5.379154 seconds (5.298240 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/MPRAGE/2011-06-22_16_15_49.0
+    -> Date: 2011-06-22, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2389/MPRAGE/2011-06-22_16_15_49.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.05739:0:0.000245625 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2389_2011-06-22_EMCI/T1 (256x256x170x1)
+Conversion required 1.453660 seconds (1.383121 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/MPRAGE/2011-09-14_14_43_42.0
+    -> Date: 2011-09-14, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2389/MPRAGE/2011-09-14_14_43_42.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 5.94969:0:0.00017869 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2389_2011-09-14_EMCI/T1 (256x256x170x1)
+Conversion required 1.269348 seconds (1.196491 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/MPRAGE/2012-02-15_16_22_58.0
+    -> Date: 2012-02-15, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2389/MPRAGE/2012-02-15_16_22_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.83492:0:0.000276178 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2389_2012-02-15_EMCI/T1 (256x256x170x1)
+Conversion required 1.484985 seconds (1.411895 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/MPRAGE/2012-10-10_17_18_18.0
+    -> Date: 2012-10-10, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_2389/MPRAGE/2012-10-10_17_18_18.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.54994:0:0.000290157 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_2389_2012-10-10_EMCI/T1 (256x256x170x1)
+Conversion required 1.487304 seconds (1.414336 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/Resting_State_fMRI/2011-06-22_15_53_41.0
+    -> Date: 2011-06-22, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2389/Resting_State_fMRI/2011-06-22_15_53_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.09353:0:0.000384135 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2389_2011-06-22_EMCI/func (64x64x48x140)
+Conversion required 5.181596 seconds (4.118363 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/Resting_State_fMRI/2011-09-14_14_40_12.0
+    -> Date: 2011-09-14, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2389/Resting_State_fMRI/2011-09-14_14_40_12.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.24274:0:0.000417366 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2389_2011-09-14_EMCI/func (64x64x48x140)
+Conversion required 5.164142 seconds (4.047611 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/Resting_State_fMRI/2012-02-15_16_17_24.0
+    -> Date: 2012-02-15, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2389/Resting_State_fMRI/2012-02-15_16_17_24.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.81905:0:0.000476474 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2389_2012-02-15_EMCI/func (64x64x48x140)
+Conversion required 5.167956 seconds (4.050500 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_2389/Resting_State_fMRI/2012-10-10_17_11_13.0
+    -> Date: 2012-10-10, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_2389/Resting_State_fMRI/2012-10-10_17_11_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.05031:0:0.000519833 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_2389_2012-10-10_EMCI/func (64x64x48x140)
+Conversion required 5.156017 seconds (4.040239 for core code).
+
+
+Processing subject: 013_S_4268
+  Processing scan from: baseline_resource/emci//013_S_4268/Accelerated_Sagittal_MPRAGE/2018-11-19_12_44_58.0
+    -> Date: 2018-11-19, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4268/Accelerated_Sagittal_MPRAGE/2018-11-19_12_44_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 176 DICOM file(s)
+Convert 176 DICOM as resource//013_S_4268_2018-11-19_EMCI/T1 (240x256x176x1)
+Conversion required 1.500655 seconds (1.425530 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/Axial_rsfMRI__EYES_OPEN_/2018-11-19_12_44_58.0
+    -> Date: 2018-11-19, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4268/Axial_rsfMRI__EYES_OPEN_/2018-11-19_12_44_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 197 DICOM file(s)
+Warning: Assuming mosaics saved in reverse order due to 'sSliceArray.ucImageNumb'
+Convert 197 DICOM as resource//013_S_4268_2018-11-19_EMCI/func (64x64x48x197)
+Conversion required 5.420527 seconds (5.275084 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/MPRAGE/2011-11-01_13_54_12.0
+    -> Date: 2011-11-01, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4268/MPRAGE/2011-11-01_13_54_12.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.5536:0:0.000283305 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4268_2011-11-01_EMCI/T1 (256x256x170x1)
+Conversion required 1.415088 seconds (1.345332 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/MPRAGE/2012-01-19_16_37_55.0
+    -> Date: 2012-01-19, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4268/MPRAGE/2012-01-19_16_37_55.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.86129:0:0.000241527 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4268_2012-01-19_EMCI/T1 (256x256x170x1)
+Conversion required 1.482028 seconds (1.408243 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/MPRAGE/2012-05-23_14_41_25.0
+    -> Date: 2012-05-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4268/MPRAGE/2012-05-23_14_41_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.37411:0:0.000280206 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4268_2012-05-23_EMCI/T1 (256x256x170x1)
+Conversion required 1.500881 seconds (1.431143 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/MPRAGE/2012-11-15_07_48_39.0
+    -> Date: 2012-11-15, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4268/MPRAGE/2012-11-15_07_48_39.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.24322:0:0.000308676 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4268_2012-11-15_EMCI/T1 (256x256x170x1)
+Conversion required 1.379177 seconds (1.309343 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/Resting_State_fMRI/2011-11-01_13_47_17.0
+    -> Date: 2011-11-01, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4268/Resting_State_fMRI/2011-11-01_13_47_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.69524:0:0.000477213 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4268_2011-11-01_EMCI/func (64x64x48x140)
+Conversion required 4.867263 seconds (3.805266 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/Resting_State_fMRI/2012-01-19_16_32_12.0
+    -> Date: 2012-01-19, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4268/Resting_State_fMRI/2012-01-19_16_32_12.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.39585:0:0.000460986 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4268_2012-01-19_EMCI/func (64x64x48x140)
+Conversion required 4.868120 seconds (3.807493 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/Resting_State_fMRI/2012-05-23_14_34_32.0
+    -> Date: 2012-05-23, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4268/Resting_State_fMRI/2012-05-23_14_34_32.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.31453:0:0.000480159 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4268_2012-05-23_EMCI/func (64x64x48x140)
+Conversion required 5.055815 seconds (3.946777 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4268/Resting_State_fMRI/2012-11-15_07_45_45.0
+    -> Date: 2012-11-15, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4268/Resting_State_fMRI/2012-11-15_07_45_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.23956:0:0.000521676 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4268_2012-11-15_EMCI/func (64x64x48x140)
+Conversion required 5.089590 seconds (3.959372 for core code).
+
+
+Processing subject: 013_S_4768
+  Processing scan from: baseline_resource/emci//013_S_4768/MPRAGE/2012-06-26_16_15_41.0
+    -> Date: 2012-06-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4768/MPRAGE/2012-06-26_16_15_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.07863:0:0.000301691 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4768_2012-06-26_EMCI/T1 (256x256x170x1)
+Conversion required 1.577947 seconds (1.512499 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4768/Resting_State_fMRI/2012-06-26_16_12_45.0
+    -> Date: 2012-06-26, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4768/Resting_State_fMRI/2012-06-26_16_12_45.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.92723:0:0.000545106 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4768_2012-06-26_EMCI/func (64x64x48x140)
+Conversion required 5.123261 seconds (3.967717 for core code).
+
+
+Processing subject: 013_S_4791
+  Processing scan from: baseline_resource/emci//013_S_4791/MPRAGE/2012-09-26_15_06_18.0
+    -> Date: 2012-09-26, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4791/MPRAGE/2012-09-26_15_06_18.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.23956:0:0.000275093 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4791_2012-09-26_EMCI/T1 (256x256x170x1)
+Conversion required 1.654622 seconds (1.585828 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4791/MPRAGE/2012-12-19_12_00_21.0
+    -> Date: 2012-12-19, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4791/MPRAGE/2012-12-19_12_00_21.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.45324:0:0.000283879 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4791_2012-12-19_EMCI/T1 (256x256x170x1)
+Conversion required 1.372948 seconds (1.306221 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4791/MPRAGE/2013-04-17_15_01_22.0
+    -> Date: 2013-04-17, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4791/MPRAGE/2013-04-17_15_01_22.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.4105:0:0.000322455 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4791_2013-04-17_EMCI/T1 (256x256x170x1)
+Conversion required 1.249352 seconds (1.176732 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4791/Resting_State_fMRI/2012-09-26_14_59_17.0
+    -> Date: 2012-09-26, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4791/Resting_State_fMRI/2012-09-26_14_59_17.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.47619:0:0.000438474 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4791_2012-09-26_EMCI/func (64x64x48x140)
+Conversion required 4.926098 seconds (3.808687 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4791/Resting_State_fMRI/2012-12-19_11_49_35.0
+    -> Date: 2012-12-19, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4791/Resting_State_fMRI/2012-12-19_11_49_35.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.95556:0:0.000466076 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4791_2012-12-19_EMCI/func (64x64x48x140)
+Conversion required 5.078410 seconds (3.980203 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4791/Resting_State_fMRI/2013-04-17_14_53_58.0
+    -> Date: 2013-04-17, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4791/Resting_State_fMRI/2013-04-17_14_53_58.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 2.36557:0:0.000434629 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4791_2013-04-17_EMCI/func (64x64x48x140)
+Conversion required 5.129952 seconds (4.044109 for core code).
+
+
+Processing subject: 013_S_4917
+  Processing scan from: baseline_resource/emci//013_S_4917/MPRAGE/2012-08-31_15_57_44.0
+    -> Date: 2012-08-31, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4917/MPRAGE/2012-08-31_15_57_44.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.08474:0:0.000294533 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4917_2012-08-31_EMCI/T1 (256x256x170x1)
+Conversion required 1.393914 seconds (1.323251 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4917/MPRAGE/2012-11-23_14_47_13.0
+    -> Date: 2012-11-23, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4917/MPRAGE/2012-11-23_14_47_13.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.07473:0:0.000299977 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4917_2012-11-23_EMCI/T1 (256x256x170x1)
+Conversion required 1.299450 seconds (1.234045 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4917/MPRAGE/2013-03-20_11_59_14.0
+    -> Date: 2013-03-20, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4917/MPRAGE/2013-03-20_11_59_14.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.35018:0:0.000352995 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4917_2013-03-20_EMCI/T1 (256x256x170x1)
+Conversion required 1.281982 seconds (1.206031 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4917/MPRAGE/2013-08-06_15_53_50.0
+    -> Date: 2013-08-06, Scan Type: T1
+    No NIfTI file found in baseline_resource/emci//013_S_4917/MPRAGE/2013-08-06_15_53_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 170 DICOM file(s)
+Philips Scaling Values RS:RI:SS = 4.17729:0:0.000356304 (see PMC3998685)
+Convert 170 DICOM as resource//013_S_4917_2013-08-06_EMCI/T1 (256x256x170x1)
+Conversion required 1.074253 seconds (1.003670 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4917/Resting_State_fMRI/2012-08-31_15_49_41.0
+    -> Date: 2012-08-31, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4917/Resting_State_fMRI/2012-08-31_15_49_41.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.00052613 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4917_2012-08-31_EMCI/func (64x64x48x140)
+Conversion required 4.880706 seconds (3.754855 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4917/Resting_State_fMRI/2012-11-23_14_39_57.0
+    -> Date: 2012-11-23, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4917/Resting_State_fMRI/2012-11-23_14_39_57.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.33162:0:0.000445085 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4917_2012-11-23_EMCI/func (64x64x48x140)
+Conversion required 4.888656 seconds (3.775017 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4917/Resting_State_fMRI/2013-03-20_11_56_25.0
+    -> Date: 2013-03-20, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4917/Resting_State_fMRI/2013-03-20_11_56_25.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000390737 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4917_2013-03-20_EMCI/func (64x64x48x140)
+Conversion required 5.022487 seconds (3.961929 for core code).
+
+  Processing scan from: baseline_resource/emci//013_S_4917/Resting_State_fMRI/2013-08-06_15_53_50.0
+    -> Date: 2013-08-06, Scan Type: func
+    No NIfTI file found in baseline_resource/emci//013_S_4917/Resting_State_fMRI/2013-08-06_15_53_50.0. Running dcm2niix conversion...
+Chris Rorden's dcm2niiX version v1.0.20241211  GCC11.5.0 x86-64 (64-bit Linux)
+Found 6720 DICOM file(s)
+Warning: Instance Number (0020,0013) order is not spatial.
+Philips Scaling Values RS:RI:SS = 1.22222:0:0.000514519 (see PMC3998685)
+Convert 6720 DICOM as resource//013_S_4917_2013-08-06_EMCI/func (64x64x48x140)
+Conversion required 5.046301 seconds (3.956408 for core code).
+
+
+Script completed. Some operations may have failed - check warnings above.
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ 
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ 
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ 
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ 
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ 
+[kroy@sry-wks Capstone_Project-fMRI_analysis]$ 
+
+
